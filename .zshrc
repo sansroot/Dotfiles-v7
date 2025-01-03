@@ -120,4 +120,6 @@ source $ZSH/oh-my-zsh.sh
 alias vim=nvim
 #cat ~/Documents/space
 alias ls='ls -sal'
+alias neofetch='neofetch --kitty ~/Pictures/neofetch1.jpg --size 175'
+
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
