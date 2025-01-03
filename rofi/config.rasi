@@ -1,0 +1,19 @@
+configuration{
+    modi: "run,drun,window";
+    icon-theme: "Oranchelo";
+    show-icons: true;
+    terminal: "alacritty";
+    drun-display-format: "{icon} {name}";
+    location: 0;
+    disable-history: false;
+    hide-scrollbar: true;
+    display-drun: " ";
+    display-run: "";
+    display-window: "󰕰";
+    display-Network: "󰤨";
+    sidebar-mode: true;
+}
+
+//@theme "catppuccin-mocha"
+
+@theme "/home/ks/.local/share/rofi/themes/catppuccin-mocha.rasi"
