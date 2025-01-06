@@ -4,6 +4,7 @@
     font-family: "JetbrainsMono Nerd Font" ;
 	font-size: 15px;
 	min-height: 10px;
+
 }
 
 window#waybar {
@@ -22,6 +23,7 @@ window#waybar.hidden {
 	transition: none;
     color: transparent;
 	background: transparent;
+	
 }
 #tags {
 	margin-top: 6px;
@@ -89,6 +91,7 @@ window#waybar.hidden {
 	transition: none;
 	color: #1A1826;
 	background: #cba6f7;
+	padding: 8px;
 }
 
 #battery {
@@ -159,6 +162,7 @@ window#waybar.hidden {
 	transition: none;
 	color: #161320;
 	background: #cba6f7;
+
 }
 #cpu {
 	margin-top: 6px;
@@ -208,6 +212,8 @@ window#waybar.hidden {
 	transition: none;
 	color: #161320;
 	background: #cba6f7;
+
+
 }
 
 #custom-wallpaper {
