@@ -1,8 +1,8 @@
 {
 	"layer": "top",
 	"modules-left": ["custom/launcher","cpu","memory","custom/media","tray"],
-	"modules-center": ["river/tags"],
-	"modules-right": ["custom/updates","custom/wallpaper","backlight","pulseaudio","clock", "battery","custom/power"],
+	"modules-center": ["river/tags","clock"],
+	"modules-right": ["custom/updates","custom/wallpaper","backlight","pulseaudio", "battery","custom/power"],
 	
 	"pulseaudio": {
 		"tooltip": false,
@@ -86,5 +86,11 @@
         "interval": 15,
         "on-click": "alacritty -e paru -Syu && notify-send 'The system has been updated' "
     },
+
+    "clock": {
+        "format": "{:%A, %B %d, %Y (%R)}  ",
+        
+    },
+
 
 }
