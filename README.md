@@ -34,6 +34,7 @@ kitty: pacman -S kitty (install it from distro's repository)
 
 ##########################################################################
 
+nwg-look: pacman -S nwg-look (install it from distro's repository)
 
 screen share in hyprland: https://gist.github.com/brunoanc/2dea6ddf6974ba4e5d26c3139ffb7580
 
