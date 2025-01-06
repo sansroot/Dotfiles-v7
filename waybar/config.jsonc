@@ -1,9 +1,13 @@
 {
 	"layer": "top",
-	"modules-left": ["custom/launcher","cpu","memory","custom/media","tray"],
+	"modules-left": ["custom/launcher","cpu","memory"],
 	"modules-center": ["river/tags","clock"],
-	"modules-right": ["custom/updates","custom/wallpaper","backlight","pulseaudio", "battery","custom/power"],
+	"modules-right": ["backlight","network","pulseaudio","custom/power"],
 	
+
+
+
+
 	"pulseaudio": {
 		"tooltip": false,
 		"scroll-step": 5,
@@ -14,39 +18,9 @@
 			"default": ["", "", ""]
 		}
 	},
-
     "river/tags": {
 		"num-tags": 6
     },
-	"network": {
-		"tooltip": false,
-		"format-wifi": "  {essid}",
-		"format-ethernet": ""
-	},
-	"backlight": {
-		"tooltip": false,
-		"format": " {}%",
-		"interval":1,
-        "on-scroll-up": "light -A 5",
-		"on-scroll-down": "light -U 5"
-	},
-    "battery": {
-        "states": {
-            "good": 95,
-            "warning": 30,
-            "critical": 20
-        },
-        "format": "{icon}  {capacity}%",
-        "format-charging": " {capacity}%",
-        "format-plugged": " {capacity}%",
-        "format-alt": "{time} {icon}",
-        "format-icons": ["", "", "", "", ""]
-    },
-	"tray":{
-		"icon-size":18,
-		"spacing": 10
-	},
-
     "cpu": {
         "interval": 15,
         "format": " {}%",
@@ -57,19 +31,6 @@
         "format": " {}%",
         "max-length": 10
     },
-    "custom/media": {
-        "interval": 30,
-        "format": "{icon} {}",
-        "return-type": "json",
-        "max-length": 20,
-        "format-icons": {
-            "spotify": " ",
-            "default": " "
-        },
-        "escape": true,
-        "exec": "$HOME/.config/system_scripts/mediaplayer.py 2> /dev/null",
-        "on-click": "playerctl play-pause"
-    },
     "custom/launcher":{
         "format": " ",
         "on-click": "rofi -show drun",
@@ -79,18 +40,21 @@
         "format": "⏻ ",
         "on-click": "rofi -show power-menu -modi power-menu:rofi-power-menu",
     },
-    "custom/updates":{
-        "format": "{} Update(s)",
-        "exec": "checkupdates | wc -l",
-        "exec-if": "[[ $(checkupdates | wc -l) != 0 ]]",
-        "interval": 15,
-        "on-click": "alacritty -e paru -Syu && notify-send 'The system has been updated' "
-    },
-
     "clock": {
-        "format": "{:%A, %B %d, %Y (%R)}  ",
+        "format": "{:%A, %B %d, %Y (%R)}",
         
     },
-
+    "network": {
+        "interface": "enp3s0",
+        "format": "{ifname}",
+        "format-wifi": "{essid} ({signalStrength}%) ",
+        "format-ethernet": "{ipaddr}/{cidr}",
+        "format-disconnected": "Not connected", //An empty format will hide the module.
+        "tooltip-format": "{ifname} via {gwaddr} 󰊗",
+        "tooltip-format-wifi": "{essid} ({signalStrength}%) ",
+        "tooltip-format-ethernet": "{ifname} ",
+        "tooltip-format-disconnected": "Disconnected",
+        "max-length": 50
+    }
 
 }
