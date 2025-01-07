@@ -2,7 +2,7 @@
 	"layer": "top",
 	"modules-left": ["custom/launcher","cpu","memory","hyprland/workspaces"],
 	"modules-center": ["clock"],
-	"modules-right": ["network","pulseaudio","custom/power"],
+	"modules-right": ["hyprland/language","network","pulseaudio","custom/power"],
 	
 	"pulseaudio": {
 		"tooltip": false,
@@ -14,6 +14,10 @@
 			"default": ["", "", ""]
 		}
 	},
+    "hyprland/language": {
+    "format": "{1}",
+    },
+
     "river/tags": {
 		"num-tags": 6
     },

@@ -24,8 +24,27 @@ window#waybar {
     transition: 0.3s;
 }
 #network:hover { 
-    color: #181825; 
+    color: #181825;
     background: #bd93f9;
+}
+#language{
+    margin-top: 10px;
+    margin-left: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 0px;
+    border-radius: 10px;
+    transition: none;
+    background: #181825; 
+    color: #bd93f9;
+    border-bottom: 3px;
+    border-style: solid;
+    border-color: #bd93f9;
+    transition: 0.3s;
+}
+#language:hover{
+    color: #181825; 
+    background: #bd93f9; 
 }
 #pulseaudio {
     margin-top: 10px;
