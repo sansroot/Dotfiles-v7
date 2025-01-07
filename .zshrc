@@ -1,5 +1,5 @@
 #neofetch --kitty ~/Pictures/neofetch1.jpg --size 175
-fastfetch --logo Pictures/neofetch1.jpg --logo-type kitty-direct --logo-width 28 --logo-height 14
+fastfetch --logo Pictures/neofetch1.jpg --logo-type kitty-direct --logo-width 27 --logo-height 13
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
