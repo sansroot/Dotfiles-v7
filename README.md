@@ -1,3 +1,4 @@
+waybar: pacman -S waybar
 
 Neofetch-Themes: https://github.com/Chick2D/neofetch-themes
 
