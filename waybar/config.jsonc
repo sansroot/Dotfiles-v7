@@ -1,8 +1,8 @@
 {
 	"layer": "top",
-	"modules-left": ["custom/launcher","cpu","memory"],
-	"modules-center": ["river/tags","clock"],
-	"modules-right": ["backlight","network","pulseaudio","custom/power"],
+	"modules-left": ["custom/launcher","cpu","memory","hyprland/workspaces"],
+	"modules-center": ["clock"],
+	"modules-right": ["network","pulseaudio","custom/power"],
 	
 
 
@@ -11,7 +11,7 @@
 	"pulseaudio": {
 		"tooltip": false,
 		"scroll-step": 5,
-		"format": "{icon} {volume}%",
+		"format": "{icon}  {volume}%",
 		"format-muted": "muted",
 		"on-click":"pactl set-sink-mute @DEFAULT_SINK@ toggle",
 		"format-icons": {
@@ -38,11 +38,24 @@
     },
     "custom/power":{
         "format": "⏻ ",
-        "on-click": "rofi -show power-menu -modi power-menu:rofi-power-menu",
+        "on-click": "rofi -show power-menu -modi power-menu:rofi-power-menu"
     },
     "clock": {
-        "format": "{:%A, %B %d, %Y (%R)}",
+        "format": "{:%A, %B %d, %Y (%R)}"
         
+    },
+    "hyprland/workspaces": {
+        "format": "{icon}",
+        "format-icons": {
+            "1": "",
+            "2": "",
+            "3": "",
+            "4": "",
+            "5": "",
+            "urgent": "",
+            "active": "",
+            "default": ""
+    }
     },
     "network": {
         "interface": "enp3s0",
@@ -51,5 +64,6 @@
         "format-disconnected": "Disconnected", //An empty format will hide the module.
         "max-length": 50
     }
+    
 
 }
