@@ -41,7 +41,7 @@
         "on-click": "rofi -show power-menu -modi power-menu:rofi-power-menu"
     },
     "clock": {
-        "format": "{:%A, %B %d, %Y (%R)}"
+        "format": "{:%A - %B %d, %Y - %R}"
         
     },
     "hyprland/workspaces": {
