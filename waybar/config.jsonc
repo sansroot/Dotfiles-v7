@@ -1,6 +1,6 @@
 {
 	"layer": "top",
-	"modules-left": ["custom/launcher","cpu","memory","hyprland/workspaces"],
+	"modules-left": ["custom/launcher","cpu","memory","disk","hyprland/workspaces"],
 	"modules-center": ["clock"],
 	"modules-right": ["hyprland/language","network","pulseaudio","custom/power"],
 	
@@ -14,10 +14,17 @@
 			"default": ["", "", ""]
 		}
 	},
-    "hyprland/language": {
-    "format": "{1}",
+
+    "disk": {
+        "interval": 30,
+        "format": " {percentage_used}%",
+        "path": "/"
     },
 
+
+    "hyprland/language": {
+        "format": "{1}",
+    },
     "river/tags": {
 		"num-tags": 6
     },
