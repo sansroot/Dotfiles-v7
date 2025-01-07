@@ -32,6 +32,8 @@ swww: pacman -S swww (install it from distro's repository)
 
 kitty: pacman -S kitty (install it from distro's repository)
 
+nerd-fonts and awesome-fonts: pacman -S awesome-terminal-fonts otf-font-awesome ttf-font-awesome ttf-jetbrains-mono ttf-jetbrains-mono-nerd
+
 
 ##########################################################################
 
