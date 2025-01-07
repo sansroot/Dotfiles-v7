@@ -4,10 +4,6 @@
 	"modules-center": ["clock"],
 	"modules-right": ["network","pulseaudio","custom/power"],
 	
-
-
-
-
 	"pulseaudio": {
 		"tooltip": false,
 		"scroll-step": 5,
@@ -42,7 +38,6 @@
     },
     "clock": {
         "format": "{:%A - %B %d, %Y - %R}"
-        
     },
     "hyprland/workspaces": {
         "format": "{icon}",
@@ -59,11 +54,9 @@
     },
     "network": {
         "interface": "enp3s0",
-        "format-wifi": "{essid} ({signalStrength}%) ",
+        "format-wifi": "{essid} ({signalStrength}%)",
         "format-ethernet": "{ipaddr}/{cidr}",
         "format-disconnected": "Disconnected", //An empty format will hide the module.
         "max-length": 50
     }
-    
-
 }
