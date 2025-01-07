@@ -135,8 +135,7 @@ window#waybar {
 #workspaces {
     margin-top: 10px;
     margin-left: 8px;
-    margin-right: 17px;
-    transition: all;
+    padding-right: 4px;
     background: #181825; /* cor de fundo substituída */
     border-bottom: 3px;
     border-style: solid;
@@ -146,4 +145,8 @@ window#waybar {
 
 #workspaces button {
     color: #bd93f9;
+}
+#workspaces button:hover {
+    background: transparent;
+    color: transparent;
 }
