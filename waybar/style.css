@@ -146,12 +146,16 @@ window#waybar {
     padding-right: 5px;
     border-radius: 10px;
     transition: none;
-    background: #bd93f9;
-    color: #161320;
+    color: #bd93f9;
+    background: #181825;
     transition: 0.3s;
+    border-bottom: 3px;
+    border-style: solid;
+    border-color: #bd93f9;
 }
 #custom-launcher:hover { 
-    background: #a6e3a1;
+    background: #bd93f9;
+    color: #181825;
 }
 #network.disconnected {
     color: #f38ba8;
@@ -183,8 +187,9 @@ window#waybar {
 }
 #custom-power:hover {
 
-    background: #bd93f9;
+    background: #f38ba8;
     color: #181825;
+    border-color: #f38ba8;
 
 }
 #workspaces {

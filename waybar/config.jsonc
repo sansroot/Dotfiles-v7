@@ -60,7 +60,7 @@
         "interface": "enp3s0",
         "format-wifi": "{essid} ({signalStrength}%)",
         "format-ethernet": "{ipaddr}/{cidr}",
-        "format-disconnected": "Disconnected", //An empty format will hide the module.
+        "format-disconnected": "disconnected", //An empty format will hide the module.
         "max-length": 50
     }
 }
