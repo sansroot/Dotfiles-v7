@@ -12,7 +12,7 @@ Oh-my-ZSH: https://github.com/ohmyzsh/ohmyzsh
 
 PowerLevel10K: https://github.com/romkatv/powerlevel10k
 
-Rofi: pacman -S rofi (install it from distro's repository)
+Rofi or rofi-wayland: pacman -S rofi OR rofi-wayland (install it from distro's repository)
 
 hyprland: pacman -S hyprland (install it from distro's repository)
 
