@@ -16,4 +16,4 @@ configuration{
 
 //@theme "catppuccin-mocha"
 
-@theme "/home/ks/.local/share/rofi/themes/catppuccin-mocha.rasi"
+@theme "~/.config/rofi/dotfiles-v7.rasi"
