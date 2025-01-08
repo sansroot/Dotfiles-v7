@@ -148,10 +148,20 @@ window#waybar {
     transition: 0.3s;
 }
 #idle_inhibitor.activated{
-    color: #89b4fa
+    color: #89b4fa;
+    border-color: #89b4fa;
+}
+#idle_inhibitor.activated:hover{
+    background: #89b4fa;
+    color: #181825;
+    border-color: #89b4fa;
 }
 #idle_inhibitor.deactivated{
     color: #bd93f9
+}
+#idle_inhibitor.deactivated:hover{
+    color: #181825; 
+    background: #bd93f9;
 }
 #memory {
     margin-top: 10px;
