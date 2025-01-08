@@ -17,11 +17,11 @@
 
     "disk": {
         "interval": 30,
-        "format": " {percentage_used}%",
+        "format": "  {percentage_used}%",
         "path": "/"
     },
     "privacy": {
-        "icon-spacing": 4,
+        "icon-spacing": 10,
         "icon-size": 18,
         "transition-duration": 250,
         "modules": [
@@ -44,19 +44,19 @@
     },
 
     "hyprland/language": {
-        "format": "{1}",
+        "format": "  {1}",
     },
     "river/tags": {
 		"num-tags": 6
     },
     "cpu": {
         "interval": 15,
-        "format": " {}%",
+        "format": "  {}%",
         "max-length": 10
     },
     "memory": {
         "interval": 30,
-        "format": " {}%",
+        "format": "  {}%",
         "max-length": 10
     },
     "custom/launcher":{
@@ -69,7 +69,7 @@
         "on-click": "rofi -show power-menu -modi power-menu:rofi-power-menu"
     },
     "clock": {
-        "format": "{:%A - %B %d, %Y - %R}"
+        "format": "  {:%A - %B %d, %Y - %R}"
     },
     "hyprland/workspaces": {
         "format": "{icon}",
@@ -87,8 +87,8 @@
     "network": {
         "interface": "enp3s0",
         "format-wifi": "{essid} ({signalStrength}%)",
-        "format-ethernet": "{ipaddr}/{cidr}",
+        "format-ethernet": "  {ipaddr}/{cidr}",
         "format-disconnected": "disconnected", //An empty format will hide the module.
-        "max-length": 50
+        "max-length": 50,
     }
 }
