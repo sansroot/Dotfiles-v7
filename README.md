@@ -1,7 +1,5 @@
 waybar: pacman -S waybar
 
-Neofetch-Themes: https://github.com/Chick2D/neofetch-themes
-
 Nvim: pacman -S neovim (install it from distro's repository)
 
 NVChad: https://github.com/NvChad/NvChad
@@ -12,11 +10,9 @@ Oh-my-ZSH: https://github.com/ohmyzsh/ohmyzsh
 
 PowerLevel10K: https://github.com/romkatv/powerlevel10k
 
-Rofi or rofi-wayland: pacman -S rofi OR rofi-wayland (install it from distro's repository)
+rofi-wayland: pacman -S rofi-wayland (install it from distro's repository)
 
 hyprland: pacman -S hyprland (install it from distro's repository)
-
-hyprpanel: yay -S ags-hyprpanel-git (install it from AUR/github repo)
 
 hyprpaper: pacman -S hyprpaper (install it from distro's repository)
 
