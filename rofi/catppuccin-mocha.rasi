@@ -23,6 +23,7 @@ window {
     border-color: @border-col;
     background-color: @bg-col;
     border-radius: 20px;
+    padding: 0px 20px 0px 0px;
 }
 
 mainbox {
@@ -38,15 +39,16 @@ inputbar {
 
 prompt {
     background-color: @blue;
-    padding: 6px;
+    padding: 3px;
     text-color: @bg-col;
-    border-radius: 3px;
-    margin: 20px 0px 0px 20px;
+    border-radius: 5px;
+    margin: 22px 0px 2px 20px;
 }
 
 textbox-prompt-colon {
     expand: false;
     str: ":";
+
 }
 
 entry {
@@ -76,8 +78,9 @@ element-icon {
 }
 
 element selected {
-    background-color:  @selected-col ;
-    text-color: @fg-col2  ;
+    background-color:  #cba6f7 ;
+    border-radius: 5px;
+    text-color: #181825  ;
 }
 
 mode-switcher {
