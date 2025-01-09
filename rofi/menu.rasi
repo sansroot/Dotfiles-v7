@@ -1,15 +1,15 @@
 * {
-    bg-col:  #1e1e2e;
-    bg-col-light: #1e1e2e;
-    border-col: #1e1e2e;
-    selected-col: #1e1e2e;
+    bg-col:  #1E1D2FFF;
+    bg-col-light: #1E1D2FFF;
+    border-col: #1E1D2FFF;
+    selected-col: #1E1D2FFF;
     blue: #b4befe;
-    fg-col: #ffffff;
+    fg-col: #cdd6f4;
     fg-col2: #b4befe;
     grey: #6c7086;
 
     width: 600;
-    font: "CaskaydiaCove Nerd Font Bold 14";
+    font: "Jetbrains mono 14";
 }
 
 element-text, element-icon , mode-switcher {
@@ -18,7 +18,7 @@ element-text, element-icon , mode-switcher {
 }
 
 window {
-    height: 360px;
+    height: 335px;
     border: 0px;
     border-color: @border-col;
     background-color: @bg-col;
@@ -38,11 +38,13 @@ inputbar {
 }
 
 prompt {
+    enabled: false;
     background-color: @blue;
-    padding: 3px;
+    padding: 5px;
     text-color: @bg-col;
     border-radius: 5px;
-    margin: 22px 0px 2px 20px;
+    text-align:center;
+    margin: 0px 0px 0px 0px;
 }
 
 textbox-prompt-colon {
@@ -53,18 +55,19 @@ textbox-prompt-colon {
 
 entry {
     padding: 6px;
-    margin: 20px 0px 0px 10px;
+    margin: 15px 0px 0px 15px;
     text-color: @fg-col;
     background-color: @bg-col;
 }
 
 listview {
     border: 0px 0px 0px;
-    padding: 6px 0px 0px;
-    margin: 10px 0px 0px 20px;
-    columns: 2;
+    padding: 4px 0px 4px;
+    margin: 0px 0px 0px 20px;
+    columns: 1;
     lines: 5;
     background-color: @bg-col;
+    fixed-height: false;
 }
 
 element {
