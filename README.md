@@ -10,7 +10,13 @@ Oh-my-ZSH: https://github.com/ohmyzsh/ohmyzsh
 
 PowerLevel10K: https://github.com/romkatv/powerlevel10k
 
-rofi-wayland: pacman -S rofi-wayland (install it from distro's repository)
+
+Rofi:
+
+  install first: https://github.com/adi1090x/rofi
+
+  then: rofi-wayland: pacman -S rofi-wayland (install it from distro's repository)
+
 
 hyprland: pacman -S hyprland (install it from distro's repository)
 
