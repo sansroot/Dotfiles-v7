@@ -71,8 +71,8 @@ run_cmd() {
 			amixer set Master mute
 			systemctl suspend
 		elif [[ $1 == '--logout' ]]; then
-			if [[ "$DESKTOP_SESSION" == 'hyprland' ]]; then
-				hyprctl dispatch exit
+			if [[ "$DESKTOP_SESSION" == 'openbox' ]]; then
+				openbox --exit
 			elif [[ "$DESKTOP_SESSION" == 'bspwm' ]]; then
 				bspc quit
 			elif [[ "$DESKTOP_SESSION" == 'i3' ]]; then
@@ -96,12 +96,15 @@ case ${chosen} in
 		run_cmd --reboot
         ;;
     $lock)
+		run_cmd
 		hyprlock
+		i3lock
         ;;
     $suspend)
 		run_cmd --suspend
         ;;
     $logout)
+		run_cmd --logout
 		hyprctl dispatch exit
         ;;
 esac
