@@ -34,13 +34,14 @@ nerd-fonts and awesome-fonts: pacman -S awesome-terminal-fonts otf-font-awesome 
 
 fastfetch: pacman -S fastfetch
 
-# Rofi:
 
-  install first: https://github.com/adi1090x/rofi
+# Rofi (special case):
 
-  then: rofi-wayland: pacman -S rofi-wayland (install it from distro's repository)
+  You will need the fonts, so you will have to install from it's repository first, only to get the fonts, and then you can install rofi-wayland.
+  
+  1. https://github.com/adi1090x/rofi
+  2. rofi-wayland: pacman -S rofi-wayland (install it from distro's repository)
 
-##########################################################################
 
 # Just to help you
 
