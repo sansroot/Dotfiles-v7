@@ -1,8 +1,10 @@
-
+# optional
 
 Nvim: pacman -S neovim (install it from distro's repository)
 
 NVChad: https://github.com/NvChad/NvChad
+
+# requisites
 
 waybar: pacman -S waybar
 
@@ -39,6 +41,8 @@ fastfetch: pacman -S fastfetch
   then: rofi-wayland: pacman -S rofi-wayland (install it from distro's repository)
 
 ##########################################################################
+
+# Just to help you
 
 nwg-look: pacman -S nwg-look (install it from distro's repository)
 
