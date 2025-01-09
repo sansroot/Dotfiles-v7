@@ -16,7 +16,7 @@ window#waybar {
     margin-bottom: 0px;
     border-radius: 10px;
     transition: none;
-    background: #181825; 
+    background: #1E1D2F; 
     color: #bd93f9;
     border-bottom: 3px;
     border-style: solid;
@@ -24,7 +24,7 @@ window#waybar {
     transition: 0.3s;
 }
 #network:hover { 
-    color: #181825;
+    color: #1E1D2F;
     background: #bd93f9;
 }
 #language{
@@ -35,7 +35,7 @@ window#waybar {
     margin-bottom: 0px;
     border-radius: 10px;
     transition: none;
-    background: #181825; 
+    background: #1E1D2F; 
     color: #bd93f9;
     border-bottom: 3px;
     border-style: solid;
@@ -43,7 +43,7 @@ window#waybar {
     transition: 0.3s;
 }
 #language:hover{
-    color: #181825; 
+    color: #1E1D2F; 
     background: #bd93f9; 
 }
 #pulseaudio {
@@ -54,7 +54,7 @@ window#waybar {
     margin-bottom: 0px;
     border-radius: 10px;
     transition: none;
-    background: #181825; 
+    background: #1E1D2F; 
     color: #bd93f9;
     padding: 8px;
     border-bottom: 3px;
@@ -64,11 +64,11 @@ window#waybar {
 }
 #pulseaudio:hover{ 
     background: #bd93f9;
-    color: #181825;
+    color: #1E1D2F;
 }
 #pulseaudio.muted {
     color: #f38ba8;
-    background: #181825; 
+    background: #1E1D2F; 
     border-bottom: 3px;
     border-style: solid;
     border-color: #f38ba8;
@@ -76,7 +76,7 @@ window#waybar {
 }
 #pulseaudio.muted:hover {
     background: #f38ba8;
-    color: #181825; 
+    color: #1E1D2F; 
 
 }
 #clock {
@@ -87,7 +87,7 @@ window#waybar {
     margin-bottom: 0px;
     border-radius: 10px;
     transition: none;
-    background: #181825; 
+    background: #1E1D2F; 
     color: #bd93f9;
     border-bottom: 3px;
     border-style: solid;
@@ -95,7 +95,7 @@ window#waybar {
     transition: 0.3s;
 }
 #clock:hover {
-    color: #181825; 
+    color: #1E1D2F; 
     background: #bd93f9;
 }
 #disk{
@@ -106,7 +106,7 @@ window#waybar {
     margin-bottom: 0px;
     border-radius: 10px;
     transition: none;
-    background: #181825; 
+    background: #1E1D2F; 
     color: #bd93f9;
     border-bottom: 3px;
     border-style: solid;
@@ -114,7 +114,7 @@ window#waybar {
     transition: 0.3s;
 }
 #disk:hover{
-    color: #181825; 
+    color: #1E1D2F; 
     background: #bd93f9;
 }
 #privacy{
@@ -125,7 +125,7 @@ window#waybar {
     margin-bottom: 0px;
     border-radius: 10px;
     transition: none;
-    background: #181825; 
+    background: #1E1D2F; 
     color: #bd93f9;
     border-bottom: 3px;
     border-style: solid;
@@ -140,7 +140,7 @@ window#waybar {
     margin-bottom: 0px;
     border-radius: 10px;
     transition: none;
-    background: #181825; 
+    background: #1E1D2F; 
     color: #bd93f9;
     border-bottom: 3px;
     border-style: solid;
@@ -153,14 +153,14 @@ window#waybar {
 }
 #idle_inhibitor.activated:hover{
     background: #89b4fa;
-    color: #181825;
+    color: #1E1D2F;
     border-color: #89b4fa;
 }
 #idle_inhibitor.deactivated{
     color: #bd93f9
 }
 #idle_inhibitor.deactivated:hover{
-    color: #181825; 
+    color: #1E1D2F; 
     background: #bd93f9;
 }
 #memory {
@@ -171,7 +171,7 @@ window#waybar {
     padding-right: 10px;
     border-radius: 10px;
     transition: none;
-    background: #181825; 
+    background: #1E1D2F; 
     color: #bd93f9;
     border-bottom: 3px;
     border-style: solid;
@@ -179,7 +179,7 @@ window#waybar {
     transition: 0.3s;
 }
 #memory:hover { 
-    color: #181825; 
+    color: #1E1D2F; 
     background: #bd93f9;
 
 }
@@ -191,7 +191,7 @@ window#waybar {
     padding-right: 10px;
     border-radius: 10px;
     transition: none;
-    background: #181825; 
+    background: #1E1D2F; 
     color: #bd93f9;
     border-bottom: 3px;
     border-style: solid;
@@ -199,7 +199,7 @@ window#waybar {
     transition: 0.3s;
 }
 #cpu:hover {
-    color: #181825; 
+    color: #1E1D2F; 
     background: #bd93f9;
 
 }
@@ -212,7 +212,7 @@ window#waybar {
     border-radius: 10px;
     transition: none;
     color: #bd93f9;
-    background: #181825;
+    background: #1E1D2F;
     transition: 0.3s;
     border-bottom: 3px;
     border-style: solid;
@@ -220,18 +220,18 @@ window#waybar {
 }
 #custom-launcher:hover { 
     background: #bd93f9;
-    color: #181825;
+    color: #1E1D2F;
 }
 #network.disconnected {
     color: #f38ba8;
-    background: #181825; 
+    background: #1E1D2F; 
     border-bottom: 3px;
     border-style: solid;
     border-color: #f38ba8;
 }
 #network.disconnected:hover {
     background: #f38ba8;
-    color: #181825; 
+    color: #1E1D2F; 
 }
 #custom-power {
     font-size: 15px;
@@ -243,7 +243,7 @@ window#waybar {
     margin-bottom: 0px;
     border-radius: 10px;
     transition: none;
-    background: #181825; 
+    background: #1E1D2F; 
     color: #bd93f9;
     border-bottom: 3px;
     border-style: solid;
@@ -253,7 +253,7 @@ window#waybar {
 #custom-power:hover {
 
     background: #f38ba8;
-    color: #181825;
+    color: #1E1D2F;
     border-color: #f38ba8;
 
 }
@@ -261,7 +261,7 @@ window#waybar {
     margin-top: 10px;
     margin-left: 8px;
     padding-right: 4px;
-    background: #181825; 
+    background: #1E1D2F; 
     border-bottom: 3px;
     border-style: solid;
     border-color: #bd93f9;
