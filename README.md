@@ -1,12 +1,6 @@
-# optional
+# Requisites
 
-Nvim: pacman -S neovim (install it from distro's repository)
-
-NVChad: https://github.com/NvChad/NvChad
-
-# requisites
-
-waybar: pacman -S waybar
+Waybar: pacman -S waybar
 
 Zsh: pacman -S zsh (install it from distro's repository)
 
@@ -14,25 +8,21 @@ Oh-my-ZSH: https://github.com/ohmyzsh/ohmyzsh
 
 PowerLevel10K: https://github.com/romkatv/powerlevel10k
 
-hyprland: pacman -S hyprland (install it from distro's repository)
+Hyprland: pacman -S hyprland (install it from distro's repository)
 
-hyprpaper: pacman -S hyprpaper (install it from distro's repository)
+Hyprpaper: pacman -S hyprpaper (install it from distro's repository)
 
-hyprshot: yay -S hyprshot (install it from AUR/github repo)
+Hyprshot: yay -S hyprshot (install it from AUR/github repo)
 
-hyprlock: pacman -S hyprlock (install it from distro's repository)
+Hyprlock: pacman -S hyprlock (install it from distro's repository)
 
-Catppuccin mauve cursor: https://www.gnome-look.org/p/2135236
+Swww: pacman -S swww (install it from distro's repository)
 
-Catppuccin Mauve GTK theme: https://www.gnome-look.org/p/1996672
+Kitty: pacman -S kitty (install it from distro's repository)
 
-swww: pacman -S swww (install it from distro's repository)
+Nerd-fonts and Awesome-fonts: pacman -S awesome-terminal-fonts otf-font-awesome ttf-font-awesome ttf-jetbrains-mono ttf-jetbrains-mono-nerd nerd-fonts
 
-kitty: pacman -S kitty (install it from distro's repository)
-
-nerd-fonts and awesome-fonts: pacman -S awesome-terminal-fonts otf-font-awesome ttf-font-awesome ttf-jetbrains-mono ttf-jetbrains-mono-nerd nerd-fonts
-
-fastfetch: pacman -S fastfetch
+Fastfetch: pacman -S fastfetch
 
 
 # Rofi (special case):
@@ -43,13 +33,24 @@ fastfetch: pacman -S fastfetch
   2. rofi-wayland: pacman -S rofi-wayland (install it from distro's repository)
 
 
+# Optional
+
+Nvim: pacman -S neovim (install it from distro's repository)
+
+NVChad: https://github.com/NvChad/NvChad
+
+Catppuccin mauve cursor: https://www.gnome-look.org/p/2135236
+
+Catppuccin Mauve GTK theme: https://www.gnome-look.org/p/1996672
+
+
 # Just to help you
 
-nwg-look: pacman -S nwg-look (install it from distro's repository)
+Nwg-look: pacman -S nwg-look (install it from distro's repository)
 
-screen share in hyprland: https://gist.github.com/brunoanc/2dea6ddf6974ba4e5d26c3139ffb7580
+Screen share in hyprland: https://gist.github.com/brunoanc/2dea6ddf6974ba4e5d26c3139ffb7580
 
-apple keyboard path to configure keys: /sys/bus/hid/drivers/apple/module/parameters
+Apple Magic Keyboard native path to configure key layout: /sys/bus/hid/drivers/apple/module/parameters
 
 ![image](https://github.com/user-attachments/assets/d4ac6d65-5833-49ee-a219-f376a1a48c2c)
 ![image](https://github.com/user-attachments/assets/79315b81-b610-48bf-8167-8356a0dac238)
