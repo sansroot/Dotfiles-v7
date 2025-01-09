@@ -74,7 +74,7 @@
     "custom/power":{
         "format": "⏻ ",
         "tooltip": false,
-        "on-click": "rofi -show power-menu -modi power-menu:rofi-power-menu"
+        "on-click": "bash ~/.config/rofi/powermenu.sh"
         
     },
     "clock": {
