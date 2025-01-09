@@ -46,8 +46,8 @@
     "idle_inhibitor": {
     "format": "{icon}",
     "format-icons": {
-        "activated": " not idle",
-        "deactivated": " idle"
+        "activated": "🖱 not idle",
+        "deactivated": "🖱 idle"
     }
 },
 
@@ -62,7 +62,7 @@
     },
     "memory": {
         "interval": 30,
-        "format": "  {}%",
+        "format": "  {}%",
         "max-length": 10
     },
     "custom/launcher":{
