@@ -48,9 +48,10 @@ screen share in hyprland: https://gist.github.com/brunoanc/2dea6ddf6974ba4e5d26c
 
 apple keyboard path to configure keys: /sys/bus/hid/drivers/apple/module/parameters
 
-![image](https://github.com/user-attachments/assets/a8ea4ffa-589c-4681-8f7e-d8c5266242bf)
-![image](https://github.com/user-attachments/assets/a0909162-6ecd-4bd1-815a-786d78f737d8)
-![image](https://github.com/user-attachments/assets/3d01db6f-567a-45b6-ad90-a7e7e93a8302)
+![image](https://github.com/user-attachments/assets/1151cba2-7b1f-461d-9db7-c4dcc2175234)
+![image](https://github.com/user-attachments/assets/e3cffda0-43c7-4291-8dbd-f758f89e5b94)
+![image](https://github.com/user-attachments/assets/f335372a-acec-4a5e-87c5-3038a585d4d5)
+
 
 
 
