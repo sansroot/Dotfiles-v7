@@ -25,7 +25,7 @@ Nerd-fonts and Awesome-fonts: pacman -S awesome-terminal-fonts otf-font-awesome 
 Fastfetch: pacman -S fastfetch
 
 
-# Rofi (special case):
+# Rofi (special case)
 
   You will need the fonts, so you will have to install from it's repository first, only to get the fonts, and then you can install rofi-wayland.
   
