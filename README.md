@@ -1,26 +1,16 @@
-waybar: pacman -S waybar
+
 
 Nvim: pacman -S neovim (install it from distro's repository)
 
 NVChad: https://github.com/NvChad/NvChad
+
+waybar: pacman -S waybar
 
 Zsh: pacman -S zsh (install it from distro's repository)
 
 Oh-my-ZSH: https://github.com/ohmyzsh/ohmyzsh
 
 PowerLevel10K: https://github.com/romkatv/powerlevel10k
-
-
-###############################################################################################
-
-Rofi:
-
-  install first: https://github.com/adi1090x/rofi
-
-  then: rofi-wayland: pacman -S rofi-wayland (install it from distro's repository)
-
-###############################################################################################
-
 
 hyprland: pacman -S hyprland (install it from distro's repository)
 
@@ -41,6 +31,12 @@ kitty: pacman -S kitty (install it from distro's repository)
 nerd-fonts and awesome-fonts: pacman -S awesome-terminal-fonts otf-font-awesome ttf-font-awesome ttf-jetbrains-mono ttf-jetbrains-mono-nerd nerd-fonts
 
 fastfetch: pacman -S fastfetch
+
+# Rofi:
+
+  install first: https://github.com/adi1090x/rofi
+
+  then: rofi-wayland: pacman -S rofi-wayland (install it from distro's repository)
 
 ##########################################################################
 
