@@ -59,28 +59,37 @@ pacman -S fastfetch (install it from distro's repository)
   ```
 
 # Optional
+
+### Nvim: 
 ```
-Nvim: pacman -S neovim (install it from distro's repository)
+pacman -S neovim (install it from distro's repository)
 ```
-```
-NVChad: https://github.com/NvChad/NvChad
-```
-```
-Catppuccin mauve cursor: https://www.gnome-look.org/p/2135236
-```
-```
-Catppuccin Mauve GTK theme: https://www.gnome-look.org/p/1996672
-```
+### NVChad: 
+
+<a>https://github.com/NvChad/NvChad</a>
+
+### Catppuccin mauve cursor: 
+
+<a>https://www.gnome-look.org/p/2135236</a>
+
+
+### Catppuccin Mauve GTK theme: 
+
+<a>https://www.gnome-look.org/p/1996672</a>
+
 
 # Just to help you
+
+### Nwg-look: 
 ```
-Nwg-look: pacman -S nwg-look (install it from distro's repository)
-```
-```
-Screen share in hyprland: https://gist.github.com/brunoanc/2dea6ddf6974ba4e5d26c3139ffb7580
+pacman -S nwg-look (install it from distro's repository)
 ```
 
-Apple Magic Keyboard native path to configure key layout: 
+### Screen share in hyprland: 
+https://gist.github.com/brunoanc/2dea6ddf6974ba4e5d26c3139ffb7580
+
+
+### Apple Keyboard native path to configure key layout: 
 ```
 /sys/bus/hid/drivers/apple/module/parameters
 ```
