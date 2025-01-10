@@ -102,6 +102,8 @@ case ${chosen} in
         ;;
     $suspend)
 		run_cmd --suspend
+		hyprlock
+		i3lock
         ;;
     $logout)
 		run_cmd --logout
