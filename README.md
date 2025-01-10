@@ -1,50 +1,50 @@
-# Requisites
+## Requisites
 
-### Waybar:
+#### Waybar:
 ```
 pacman -S waybar
 ```
-### Zsh: 
+#### Zsh: 
 ```
 pacman -S zsh (install it from distro's repository)
 ```
-### Oh-my-ZSH: 
+#### Oh-my-ZSH: 
 
 <a>https://github.com/ohmyzsh/ohmyzsh</a>
 
-### PowerLevel10K:
+#### PowerLevel10K:
 
 <a>https://github.com/romkatv/powerlevel10k</a>
 
-### Hyprland: 
+#### Hyprland: 
 ```
 pacman -S hyprland (install it from distro's repository)
 ```
-### Hyprpaper: 
+#### Hyprpaper: 
 ```
 pacman -S hyprpaper (install it from distro's repository)
 ```
-### Hyprshot: 
+#### Hyprshot: 
 ```
 yay -S hyprshot (install it from AUR/github repo)
 ```
-### Hyprlock: 
+#### Hyprlock: 
 ```
 pacman -S hyprlock (install it from distro's repository)
 ```
-### Swww: 
+#### Swww: 
 ```
 pacman -S swww (install it from distro's repository)
 ```
-### Kitty: 
+#### Kitty: 
 ```
 pacman -S kitty (install it from distro's repository)
 ```
-### Nerd-fonts and Awesome-fonts: 
+#### Nerd-fonts and Awesome-fonts: 
 ```
 pacman -S awesome-terminal-fonts otf-font-awesome ttf-font-awesome ttf-jetbrains-mono ttf-jetbrains-mono-nerd nerd-fonts
 ```
-### Fastfetch: 
+#### Fastfetch: 
 ```
 pacman -S fastfetch (install it from distro's repository)
 ```
@@ -60,36 +60,36 @@ pacman -S fastfetch (install it from distro's repository)
 
 # Optional
 
-### Nvim: 
+#### Nvim: 
 ```
 pacman -S neovim (install it from distro's repository)
 ```
-### NVChad: 
+#### NVChad: 
 
 <a>https://github.com/NvChad/NvChad</a>
 
-### Catppuccin mauve cursor: 
+#### Catppuccin mauve cursor: 
 
 <a>https://www.gnome-look.org/p/2135236</a>
 
 
-### Catppuccin Mauve GTK theme: 
+#### Catppuccin Mauve GTK theme: 
 
 <a>https://www.gnome-look.org/p/1996672</a>
 
 
 # Just to help you
 
-### Nwg-look: 
+#### Nwg-look: 
 ```
 pacman -S nwg-look (install it from distro's repository)
 ```
 
-### Screen share in hyprland: 
+#### Screen share in hyprland: 
 <a>https://gist.github.com/brunoanc/2dea6ddf6974ba4e5d26c3139ffb7580</a>
 
 
-### Apple Keyboard native path to configure key layout: 
+#### Apple Keyboard native path to configure key layout: 
 ```
 /sys/bus/hid/drivers/apple/module/parameters
 ```
