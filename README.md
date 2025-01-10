@@ -4,7 +4,7 @@
 ```
 pacman -S waybar
 ```
-#### Zsh: 
+### Zsh: 
 ```
 pacman -S zsh (install it from distro's repository)
 ```
