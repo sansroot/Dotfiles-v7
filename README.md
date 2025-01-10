@@ -47,7 +47,7 @@ sudo pacman -S fastfetch (install it from distro's repository)
 #### PowerLevel10K:
 
 <a>https://github.com/romkatv/powerlevel10k</a>
-# Rofi (special case)
+## Rofi (special case)
 
   You will need to install rofi from official git repository because it's fonts, and rofi-wayland from pacman for the window animations provided by wayland.
   
@@ -57,7 +57,7 @@ sudo pacman -S fastfetch (install it from distro's repository)
   <a>https://github.com/adi1090x/rofi</a>
   
 
-# Optional
+## Optional
 
 #### Nvim: 
 ```
@@ -77,7 +77,7 @@ sudo pacman -S neovim (install it from distro's repository)
 <a>https://www.gnome-look.org/p/1996672</a>
 
 
-# Just to help you
+## Just to help you
 
 #### Nwg-look: 
 ```
