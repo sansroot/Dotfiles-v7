@@ -2,7 +2,7 @@
 	"layer": "top",
 	"modules-left": ["custom/launcher","cpu","memory","disk","hyprland/workspaces"],
 	"modules-center": ["clock"],
-	"modules-right": ["privacy","idle_inhibitor","hyprland/language","network","pulseaudio","custom/power"],
+	"modules-right": ["privacy","hyprland/language","network","pulseaudio","custom/power"],
 	
 	"pulseaudio": {
 		"tooltip": false,
@@ -43,13 +43,7 @@
             }
         ]
     },
-    "idle_inhibitor": {
-    "format": "{icon}",
-    "format-icons": {
-        "activated": "🖱 not idle",
-        "deactivated": "🖱 idle"
-    }
-},
+
 
     "hyprland/language": {
         "format": "  {1}",
@@ -74,8 +68,8 @@
     "custom/power":{
         "format": "⏻ ",
         "tooltip": false,
-        "on-click": "bash ~/.config/rofi/powermenu.sh"
-        
+        "on-click": "bash ~/.config/rofi/powermenu.sh",
+        "on-click-right": "killall rofi",
     },
     "clock": {
         "format": "  {:%A - %B %d, %Y - %R}",
@@ -85,13 +79,13 @@
         "format": "{icon}",
         "tooltip": false,
         "format-icons": {
-            "1": "",
-            "2": "",
-            "3": "",
-            "4": "",
-            "5": "",
-            "urgent": "",
-            "active": "",
+            "1": "",
+            "2": "",
+            "3": "",
+            "4": "",
+            "5": "",
+            "urgent": "",
+            "active": "",
             "default": ""
     }
     },
