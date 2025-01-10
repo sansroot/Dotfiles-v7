@@ -1,16 +1,21 @@
 # Requisites
+
+### Waybar:
 ```
-Waybar: pacman -S waybar
+pacman -S waybar
 ```
+### Zsh: 
 ```
-Zsh: pacman -S zsh (install it from distro's repository)
+pacman -S zsh (install it from distro's repository)
 ```
-```
-Oh-my-ZSH: https://github.com/ohmyzsh/ohmyzsh
-```
-```
-PowerLevel10K: https://github.com/romkatv/powerlevel10k
-```
+### Oh-my-ZSH: 
+
+<a>https://github.com/ohmyzsh/ohmyzsh</a>
+
+### PowerLevel10K:
+
+<a>https://github.com/romkatv/powerlevel10k</a>
+
 ```
 Hyprland: pacman -S hyprland (install it from distro's repository)
 ```
