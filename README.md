@@ -1,8 +1,10 @@
 # Requisites
-
-> Waybar: pacman -S waybar
-
+```
+Waybar: pacman -S waybar
+```
+```
 Zsh: pacman -S zsh (install it from distro's repository)
+```
 
 Oh-my-ZSH: https://github.com/ohmyzsh/ohmyzsh
 
