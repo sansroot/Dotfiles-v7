@@ -1,6 +1,6 @@
 # Requisites
 
-Waybar: pacman -S waybar
+> Waybar: pacman -S waybar
 
 Zsh: pacman -S zsh (install it from distro's repository)
 
@@ -22,7 +22,7 @@ Kitty: pacman -S kitty (install it from distro's repository)
 
 Nerd-fonts and Awesome-fonts: pacman -S awesome-terminal-fonts otf-font-awesome ttf-font-awesome ttf-jetbrains-mono ttf-jetbrains-mono-nerd nerd-fonts
 
-Fastfetch: pacman -S fastfetch
+Fastfetch: pacman -S fastfetch (install it from distro's repository)
 
 
 # Rofi (special case)
