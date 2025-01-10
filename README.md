@@ -16,36 +16,44 @@ pacman -S zsh (install it from distro's repository)
 
 <a>https://github.com/romkatv/powerlevel10k</a>
 
+### Hyprland: 
 ```
-Hyprland: pacman -S hyprland (install it from distro's repository)
+pacman -S hyprland (install it from distro's repository)
 ```
+### Hyprpaper: 
 ```
-Hyprpaper: pacman -S hyprpaper (install it from distro's repository)
+pacman -S hyprpaper (install it from distro's repository)
 ```
+### Hyprshot: 
 ```
-Hyprshot: yay -S hyprshot (install it from AUR/github repo)
+yay -S hyprshot (install it from AUR/github repo)
 ```
+### Hyprlock: 
 ```
-Hyprlock: pacman -S hyprlock (install it from distro's repository)
+pacman -S hyprlock (install it from distro's repository)
 ```
+### Swww: 
 ```
-Swww: pacman -S swww (install it from distro's repository)
+pacman -S swww (install it from distro's repository)
 ```
+### Kitty: 
 ```
-Kitty: pacman -S kitty (install it from distro's repository)
+pacman -S kitty (install it from distro's repository)
 ```
+### Nerd-fonts and Awesome-fonts: 
 ```
-Nerd-fonts and Awesome-fonts: pacman -S awesome-terminal-fonts otf-font-awesome ttf-font-awesome ttf-jetbrains-mono ttf-jetbrains-mono-nerd nerd-fonts
+pacman -S awesome-terminal-fonts otf-font-awesome ttf-font-awesome ttf-jetbrains-mono ttf-jetbrains-mono-nerd nerd-fonts
 ```
+### Fastfetch: 
 ```
-Fastfetch: pacman -S fastfetch (install it from distro's repository)
+pacman -S fastfetch (install it from distro's repository)
 ```
 
 # Rofi (special case)
 
   You will need the fonts, so you will have to install from it's repository first, only to get the fonts, and then you can install rofi-wayland.
   
-  1. https://github.com/adi1090x/rofi
+  1. <a>https://github.com/adi1090x/rofi</a>
   ```
   2. rofi-wayland: pacman -S rofi-wayland (install it from distro's repository)
   ```
