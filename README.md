@@ -67,12 +67,12 @@ sudo pacman -S neovim (install it from distro's repository)
 
 <a>https://github.com/NvChad/NvChad</a>
 
-#### Catppuccin mauve cursor: 
+#### Catppuccin lavender cursor: 
 
 <a>https://www.gnome-look.org/p/2135236</a>
 
 
-#### Catppuccin Mauve GTK theme: 
+#### Catppuccin lavender GTK theme: 
 
 <a>https://www.gnome-look.org/p/1996672</a>
 
