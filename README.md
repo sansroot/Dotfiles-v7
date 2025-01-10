@@ -86,7 +86,7 @@ pacman -S nwg-look (install it from distro's repository)
 ```
 
 ### Screen share in hyprland: 
-https://gist.github.com/brunoanc/2dea6ddf6974ba4e5d26c3139ffb7580
+<a>https://gist.github.com/brunoanc/2dea6ddf6974ba4e5d26c3139ffb7580</a>
 
 
 ### Apple Keyboard native path to configure key layout: 
