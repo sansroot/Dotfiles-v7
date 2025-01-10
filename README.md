@@ -49,12 +49,13 @@ sudo pacman -S fastfetch (install it from distro's repository)
 <a>https://github.com/romkatv/powerlevel10k</a>
 # Rofi (special case)
 
-  You will need the fonts, so you will have to install from it's repository first, only to get the fonts, and then you can install rofi-wayland.
+  You will need to install rofi from official git repository because it's fonts, and rofi-wayland from pacman for the window animations provided by wayland.
   
-  1. <a>https://github.com/adi1090x/rofi</a>
   ```
-  2. sudo pacman -S rofi-wayland (install it from distro's repository)
+  sudo pacman -S rofi-wayland (install it from distro's repository)
   ```
+  <a>https://github.com/adi1090x/rofi</a>
+  
 
 # Optional
 
