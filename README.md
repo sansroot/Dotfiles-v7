@@ -2,11 +2,11 @@
 
 #### Waybar:
 ```
-pacman -S waybar
+sudo pacman -S waybar
 ```
 #### Zsh: 
 ```
-pacman -S zsh (install it from distro's repository)
+sudo pacman -S zsh (install it from distro's repository)
 ```
 #### Oh-my-ZSH: 
 
@@ -18,11 +18,11 @@ pacman -S zsh (install it from distro's repository)
 
 #### Hyprland: 
 ```
-pacman -S hyprland (install it from distro's repository)
+sudo pacman -S hyprland (install it from distro's repository)
 ```
 #### Hyprpaper: 
 ```
-pacman -S hyprpaper (install it from distro's repository)
+sudo pacman -S hyprpaper (install it from distro's repository)
 ```
 #### Hyprshot: 
 ```
@@ -30,23 +30,23 @@ yay -S hyprshot (install it from AUR/github repo)
 ```
 #### Hyprlock: 
 ```
-pacman -S hyprlock (install it from distro's repository)
+sudo pacman -S hyprlock (install it from distro's repository)
 ```
 #### Swww: 
 ```
-pacman -S swww (install it from distro's repository)
+sudo pacman -S swww (install it from distro's repository)
 ```
 #### Kitty: 
 ```
-pacman -S kitty (install it from distro's repository)
+sudo pacman -S kitty (install it from distro's repository)
 ```
 #### Nerd-fonts and Awesome-fonts: 
 ```
-pacman -S awesome-terminal-fonts otf-font-awesome ttf-font-awesome ttf-jetbrains-mono ttf-jetbrains-mono-nerd nerd-fonts
+sudo pacman -S awesome-terminal-fonts otf-font-awesome ttf-font-awesome ttf-jetbrains-mono ttf-jetbrains-mono-nerd nerd-fonts
 ```
 #### Fastfetch: 
 ```
-pacman -S fastfetch (install it from distro's repository)
+sudo pacman -S fastfetch (install it from distro's repository)
 ```
 
 # Rofi (special case)
@@ -55,14 +55,14 @@ pacman -S fastfetch (install it from distro's repository)
   
   1. <a>https://github.com/adi1090x/rofi</a>
   ```
-  2. pacman -S rofi-wayland (install it from distro's repository)
+  2. sudo pacman -S rofi-wayland (install it from distro's repository)
   ```
 
 # Optional
 
 #### Nvim: 
 ```
-pacman -S neovim (install it from distro's repository)
+sudo pacman -S neovim (install it from distro's repository)
 ```
 #### NVChad: 
 
@@ -82,7 +82,7 @@ pacman -S neovim (install it from distro's repository)
 
 #### Nwg-look: 
 ```
-pacman -S nwg-look (install it from distro's repository)
+sudo pacman -S nwg-look (install it from distro's repository)
 ```
 
 #### Screen share in hyprland: 
