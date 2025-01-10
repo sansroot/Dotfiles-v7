@@ -8,14 +8,6 @@ sudo pacman -S waybar
 ```
 sudo pacman -S zsh (install it from distro's repository)
 ```
-#### Oh-my-ZSH: 
-
-<a>https://github.com/ohmyzsh/ohmyzsh</a>
-
-#### PowerLevel10K:
-
-<a>https://github.com/romkatv/powerlevel10k</a>
-
 #### Hyprland: 
 ```
 sudo pacman -S hyprland (install it from distro's repository)
@@ -48,7 +40,13 @@ sudo pacman -S awesome-terminal-fonts otf-font-awesome ttf-font-awesome ttf-jetb
 ```
 sudo pacman -S fastfetch (install it from distro's repository)
 ```
+#### Oh-my-ZSH: 
 
+<a>https://github.com/ohmyzsh/ohmyzsh</a>
+
+#### PowerLevel10K:
+
+<a>https://github.com/romkatv/powerlevel10k</a>
 # Rofi (special case)
 
   You will need the fonts, so you will have to install from it's repository first, only to get the fonts, and then you can install rofi-wayland.
