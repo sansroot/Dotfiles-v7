@@ -91,6 +91,85 @@ sudo pacman -S nwg-look
 <a>https://gist.github.com/brunoanc/2dea6ddf6974ba4e5d26c3139ffb7580</a>
 
 
+## Keybinds
+
+mainmod(super) + T: switch themes
+
+mainmod(super) + Return: open terminal
+
+mainmod(super) + Q: close active window
+
+mainmod(super) + M: exit system
+
+mainmod(super) + F: toggle fullscreen
+
+mainmod(super) + E: open file manager
+
+alt + F: toggle floating windows
+
+alt + X: open menu
+
+alt + Z: open power menu
+
+alt + S: toggle split screen
+
+mainmod(super) + A: focus left window
+
+mainmod(super) + D: focus right window
+
+mainmod(super) + W: focus up window
+
+mainmod(super) + S: focus down window
+
+alt + P: take screenshot
+
+mainmod(super) + L: lock screen
+
+mainmod(super) + K: close panel
+
+mainmod(super) + J: start panel
+
+alt + 1: switch to workspace 1
+
+alt + 2: switch to workspace 2
+
+alt + 3: switch to workspace 3
+
+alt + 4: switch to workspace 4
+
+alt + 5: switch to workspace 5
+
+alt + 6: switch to workspace 6
+
+alt + 7: switch to workspace 7
+
+alt + 8: switch to workspace 8
+
+alt + 9: switch to workspace 9
+
+alt + 0: switch to workspace 10
+
+
+mainmod(super) + 1: move to workspace 1
+
+mainmod(super) + 2: move to workspace 2
+
+mainmod(super) + 3: move to workspace 3
+
+mainmod(super) + 4: move to workspace 4
+
+mainmod(super) + 5: move to workspace 5
+
+mainmod(super) + 6: move to workspace 6
+
+mainmod(super) + 7: move to workspace 7
+
+mainmod(super) + 8: move to workspace 8
+
+mainmod(super) + 9: move to workspace 9
+
+mainmod(super) + 0: move to workspace 10
+
 
 ![image](https://github.com/user-attachments/assets/d33d5fe5-ba66-413d-ae88-d6db6bc19624)
 ![image](https://github.com/user-attachments/assets/21f6e1dc-2e9d-462b-8de2-bb734242911f)
