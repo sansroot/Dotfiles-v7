@@ -1,0 +1,118 @@
+* {
+    bg-col:  #1E1D2FFF;
+    bg-col-light: #1E1D2FFF;
+    border-col: #1E1D2FFF;
+    selected-col: #1E1D2FFF;
+    blue: #cba6f7;
+    fg-col: #cdd6f4;
+    fg-col2: #cba6f7;
+    grey: #6c7086;
+
+    width: 600;
+    font: "Jetbrains mono 14";
+}
+
+element-text, element-icon , mode-switcher {
+    background-color: inherit;
+    text-color:       inherit;
+}
+
+window {
+    height: 335px;
+    border: 0px;
+    border-color: @border-col;
+    background-color: @bg-col;
+    border-radius: 20px;
+    padding: 0px 20px 0px 0px;
+}
+
+mainbox {
+    background-color: @bg-col;
+}
+
+inputbar {
+    children: [prompt,entry];
+    background-color: @bg-col;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+prompt {
+    enabled: false;
+    background-color: @blue;
+    padding: 5px;
+    text-color: @bg-col;
+    border-radius: 5px;
+    text-align:center;
+    margin: 0px 0px 0px 0px;
+}
+
+textbox-prompt-colon {
+    expand: false;
+    str: ":";
+
+}
+
+entry {
+    padding: 6px;
+    margin: 15px 0px 0px 15px;
+    text-color: @fg-col;
+    background-color: @bg-col;
+}
+
+listview {
+    border: 0px 0px 0px;
+    padding: 4px 0px 4px;
+    margin: 0px 0px 0px 20px;
+    columns: 1;
+    lines: 5;
+    background-color: @bg-col;
+    fixed-height: false;
+}
+
+element {
+    padding: 5px;
+    background-color: @bg-col;
+    text-color: @fg-col  ;
+}
+
+element-icon {
+    size: 25px;
+}
+
+element selected {
+    background-color:  #cba6f7 ;
+    border-radius: 5px;
+    text-color: #181825  ;
+}
+
+mode-switcher {
+    spacing: 0;
+  }
+
+button {
+    padding: 10px;
+    background-color: @bg-col-light;
+    text-color: @grey;
+    vertical-align: 0.5; 
+    horizontal-align: 0.5;
+}
+
+button selected {
+  background-color: @bg-col;
+  text-color: @blue;
+}
+
+message {
+    background-color: @bg-col-light;
+    margin: 2px;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+textbox {
+    padding: 6px;
+    margin: 20px 0px 0px 20px;
+    text-color: @blue;
+    background-color: @bg-col-light;
+}
