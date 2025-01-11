@@ -92,10 +92,9 @@ sudo pacman -S nwg-look
 
 
 
-![image](https://github.com/user-attachments/assets/d4ac6d65-5833-49ee-a219-f376a1a48c2c)
-![image](https://github.com/user-attachments/assets/79315b81-b610-48bf-8167-8356a0dac238)
-![image](https://github.com/user-attachments/assets/662e0e54-a2f4-478f-b2b7-153e1528f0ad)
-
+![image](https://github.com/user-attachments/assets/5fc30f34-e776-4fea-a004-f43fbb601673)
+![image](https://github.com/user-attachments/assets/77181309-12f0-4021-beae-692c0ca1076c)
+![image](https://github.com/user-attachments/assets/4ff2e1c2-e73d-48dc-94e5-d6589c5726aa)
 
 
 
