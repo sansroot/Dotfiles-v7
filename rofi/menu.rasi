@@ -3,9 +3,9 @@
     bg-col-light: #1E1D2FFF;
     border-col: #1E1D2FFF;
     selected-col: #1E1D2FFF;
-    blue: #cba6f7;
+    blue: #fab387;
     fg-col: #cdd6f4;
-    fg-col2: #cba6f7;
+    fg-col2: #fab387;
     grey: #6c7086;
 
     width: 600;
@@ -81,7 +81,7 @@ element-icon {
 }
 
 element selected {
-    background-color:  #cba6f7 ;
+    background-color:  #fab387 ;
     border-radius: 5px;
     text-color: #181825  ;
 }
