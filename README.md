@@ -6,31 +6,31 @@ sudo pacman -S waybar
 ```
 #### Zsh: 
 ```
-sudo pacman -S zsh (install it from distro's repository)
+sudo pacman -S zsh 
 ```
 #### Hyprland: 
 ```
-sudo pacman -S hyprland (install it from distro's repository)
+sudo pacman -S hyprland 
 ```
 #### Hyprpaper: 
 ```
-sudo pacman -S hyprpaper (install it from distro's repository)
+sudo pacman -S hyprpaper 
 ```
 #### Hyprshot: 
 ```
-yay -S hyprshot (install it from AUR/github repo)
+yay -S hyprshot 
 ```
 #### Hyprlock: 
 ```
-sudo pacman -S hyprlock (install it from distro's repository)
+sudo pacman -S hyprlock 
 ```
 #### Swww: 
 ```
-sudo pacman -S swww (install it from distro's repository)
+sudo pacman -S swww 
 ```
 #### Kitty: 
 ```
-sudo pacman -S kitty (install it from distro's repository)
+sudo pacman -S kitty 
 ```
 #### Nerd-fonts and Awesome-fonts: 
 ```
@@ -38,7 +38,7 @@ sudo pacman -S awesome-terminal-fonts otf-font-awesome ttf-font-awesome ttf-jetb
 ```
 #### Fastfetch: 
 ```
-sudo pacman -S fastfetch (install it from distro's repository)
+sudo pacman -S fastfetch 
 ```
 #### Oh-my-ZSH: 
 
@@ -52,7 +52,7 @@ sudo pacman -S fastfetch (install it from distro's repository)
   You will need to install rofi from official git repository because it's fonts, and rofi-wayland from pacman for the window animations provided by wayland.
   
   ```
-  sudo pacman -S rofi-wayland (install it from distro's repository)
+  sudo pacman -S rofi-wayland 
   ```
   <a>https://github.com/adi1090x/rofi</a>
   
@@ -61,7 +61,7 @@ sudo pacman -S fastfetch (install it from distro's repository)
 
 #### Nvim: 
 ```
-sudo pacman -S neovim (install it from distro's repository)
+sudo pacman -S neovim 
 ```
 #### NVChad: 
 
@@ -81,7 +81,7 @@ sudo pacman -S neovim (install it from distro's repository)
 
 #### Nwg-look: 
 ```
-sudo pacman -S nwg-look (install it from distro's repository)
+sudo pacman -S nwg-look 
 ```
 #### Apple Keyboard native path to configure key layout: 
 ```
