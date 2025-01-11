@@ -47,7 +47,7 @@ sudo pacman -S fastfetch
 #### PowerLevel10K:
 
 <a>https://github.com/romkatv/powerlevel10k</a>
-# Rofi (special case)
+## Rofi (special case)
 
   You will need to install rofi from official git repository because it's fonts, and rofi-wayland from pacman for the window animations provided by wayland.
   
@@ -57,7 +57,7 @@ sudo pacman -S fastfetch
   <a>https://github.com/adi1090x/rofi</a>
   
 
-# Optional
+## Optional
 
 #### Nvim: 
 ```
@@ -67,17 +67,17 @@ sudo pacman -S neovim
 
 <a>https://github.com/NvChad/NvChad</a>
 
-#### Catppuccin lavender cursor: 
+#### Catppuccin Mocha DARK cursor: 
 
 <a>https://www.gnome-look.org/p/2135236</a>
 
 
-#### Catppuccin lavender GTK theme: 
+#### Catppuccin GTK theme: 
 
 <a>https://www.gnome-look.org/p/1996672</a>
 
 
-# Just to help you
+## Just to help you
 
 #### Nwg-look: 
 ```
@@ -90,9 +90,14 @@ sudo pacman -S nwg-look
 #### Screen share in hyprland: 
 <a>https://gist.github.com/brunoanc/2dea6ddf6974ba4e5d26c3139ffb7580</a>
 
-![image](https://github.com/user-attachments/assets/1151cba2-7b1f-461d-9db7-c4dcc2175234)
-![image](https://github.com/user-attachments/assets/e3cffda0-43c7-4291-8dbd-f758f89e5b94)
-![image](https://github.com/user-attachments/assets/f335372a-acec-4a5e-87c5-3038a585d4d5)
+
+
+![image](https://github.com/user-attachments/assets/d4ac6d65-5833-49ee-a219-f376a1a48c2c)
+![image](https://github.com/user-attachments/assets/79315b81-b610-48bf-8167-8356a0dac238)
+![image](https://github.com/user-attachments/assets/662e0e54-a2f4-478f-b2b7-153e1528f0ad)
+
+
+
 
 
 
