@@ -17,15 +17,15 @@ window#waybar {
     border-radius: 10px;
     transition: none;
     background: #1E1D2F; 
-    color: #a6e3a1;
+    color: #74c7ec;
     border-bottom: 3px;
     border-style: solid;
-    border-color: #a6e3a1;
+    border-color: #74c7ec;
     transition: 0.3s;
 }
 #network:hover { 
     color: #1E1D2F;
-    background: #a6e3a1;
+    background: #74c7ec;
 }
 #language{
     margin-top: 10px;
@@ -36,15 +36,15 @@ window#waybar {
     border-radius: 10px;
     transition: none;
     background: #1E1D2F; 
-    color: #a6e3a1;
+    color: #74c7ec;
     border-bottom: 3px;
     border-style: solid;
-    border-color: #a6e3a1;
+    border-color: #74c7ec;
     transition: 0.3s;
 }
 #language:hover{
     color: #1E1D2F; 
-    background: #a6e3a1; 
+    background: #74c7ec; 
 }
 #pulseaudio {
     margin-top: 10px;
@@ -55,15 +55,15 @@ window#waybar {
     border-radius: 10px;
     transition: none;
     background: #1E1D2F; 
-    color: #a6e3a1;
+    color: #74c7ec;
     padding: 8px;
     border-bottom: 3px;
     border-style: solid;
-    border-color: #a6e3a1;
+    border-color: #74c7ec;
     transition: 0.3s;
 }
 #pulseaudio:hover{ 
-    background: #a6e3a1;
+    background: #74c7ec;
     color: #1E1D2F;
 }
 #pulseaudio.muted {
@@ -88,15 +88,15 @@ window#waybar {
     border-radius: 10px;
     transition: none;
     background: #1E1D2F; 
-    color: #a6e3a1;
+    color: #74c7ec;
     border-bottom: 3px;
     border-style: solid;
-    border-color: #a6e3a1;
+    border-color: #74c7ec;
     transition: 0.3s;
 }
 #clock:hover {
     color: #1E1D2F; 
-    background: #a6e3a1;
+    background: #74c7ec;
 }
 #disk{
     margin-top: 10px;
@@ -107,15 +107,15 @@ window#waybar {
     border-radius: 10px;
     transition: none;
     background: #1E1D2F; 
-    color: #a6e3a1;
+    color: #74c7ec;
     border-bottom: 3px;
     border-style: solid;
-    border-color: #a6e3a1;
+    border-color: #74c7ec;
     transition: 0.3s;
 }
 #disk:hover{
     color: #1E1D2F; 
-    background: #a6e3a1;
+    background: #74c7ec;
 }
 #privacy{
     margin-top: 10px;
@@ -126,10 +126,10 @@ window#waybar {
     border-radius: 10px;
     transition: none;
     background: #1E1D2F; 
-    color: #a6e3a1;
+    color: #74c7ec;
     border-bottom: 3px;
     border-style: solid;
-    border-color: #a6e3a1;
+    border-color: #74c7ec;
     transition: 0.3s;
 }
 #idle_inhibitor{
@@ -141,10 +141,10 @@ window#waybar {
     border-radius: 10px;
     transition: none;
     background: #1E1D2F; 
-    color: #a6e3a1;
+    color: #74c7ec;
     border-bottom: 3px;
     border-style: solid;
-    border-color: #a6e3a1;
+    border-color: #74c7ec;
     transition: 0.3s;
 }
 #idle_inhibitor.activated{
@@ -157,11 +157,11 @@ window#waybar {
     border-color: #89b4fa;
 }
 #idle_inhibitor.deactivated{
-    color: #a6e3a1
+    color: #74c7ec
 }
 #idle_inhibitor.deactivated:hover{
     color: #1E1D2F; 
-    background: #a6e3a1;
+    background: #74c7ec;
 }
 #memory {
     margin-top: 10px;
@@ -172,15 +172,15 @@ window#waybar {
     border-radius: 10px;
     transition: none;
     background: #1E1D2F; 
-    color: #a6e3a1;
+    color: #74c7ec;
     border-bottom: 3px;
     border-style: solid;
-    border-color: #a6e3a1;
+    border-color: #74c7ec;
     transition: 0.3s;
 }
 #memory:hover { 
     color: #1E1D2F; 
-    background: #a6e3a1;
+    background: #74c7ec;
 
 }
 #cpu {
@@ -192,15 +192,15 @@ window#waybar {
     border-radius: 10px;
     transition: none;
     background: #1E1D2F; 
-    color: #a6e3a1;
+    color: #74c7ec;
     border-bottom: 3px;
     border-style: solid;
-    border-color: #a6e3a1;
+    border-color: #74c7ec;
     transition: 0.3s;
 }
 #cpu:hover {
     color: #1E1D2F; 
-    background: #a6e3a1;
+    background: #74c7ec;
 
 }
 #custom-launcher {
@@ -211,15 +211,15 @@ window#waybar {
     padding-right: 5px;
     border-radius: 10px;
     transition: none;
-    color: #a6e3a1;
+    color: #74c7ec;
     background: #1E1D2F;
     transition: 0.3s;
     border-bottom: 3px;
     border-style: solid;
-    border-color: #a6e3a1;
+    border-color: #74c7ec;
 }
 #custom-launcher:hover { 
-    background: #a6e3a1;
+    background: #74c7ec;
     color: #1E1D2F;
 }
 #network.disconnected {
@@ -244,10 +244,10 @@ window#waybar {
     border-radius: 10px;
     transition: none;
     background: #1E1D2F; 
-    color: #a6e3a1;
+    color: #74c7ec;
     border-bottom: 3px;
     border-style: solid;
-    border-color: #a6e3a1;
+    border-color: #74c7ec;
     transition: 0.3s;
 }
 #custom-power:hover {
@@ -264,12 +264,12 @@ window#waybar {
     background: #1E1D2F; 
     border-bottom: 3px;
     border-style: solid;
-    border-color: #a6e3a1;
-    color: #a6e3a1;
+    border-color: #74c7ec;
+    color: #74c7ec;
     transition: 0.3s;
 }
 #workspaces button {
-    color: #a6e3a1;
+    color: #74c7ec;
     transition: 0.3s;
 }
 #workspaces button:hover {
@@ -285,10 +285,10 @@ window#waybar {
     border-radius: 10px;
     transition: none;
     background: #1E1D2F; 
-    color: #a6e3a1;
+    color: #74c7ec;
     border-bottom: 3px;
     border-style: solid;
-    border-color: #a6e3a1;
+    border-color: #74c7ec;
     transition: 0.3s;
 }
 #tray menu{
@@ -300,9 +300,9 @@ window#waybar {
     border-radius: 10px;
     transition: none;
     background: #1E1D2F; 
-    color: #a6e3a1;
+    color: #74c7ec;
     border-bottom: 3px;
     border-style: solid;
-    border-color: #a6e3a1;
+    border-color: #74c7ec;
     transition: 0.3s;
 }
