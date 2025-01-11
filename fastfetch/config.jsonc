@@ -1,85 +1,103 @@
-// Inspired by Catnap
+//   _____ _____ _____ _____ _____ _____ _____ _____ _____ 
+//  |   __|  _  |   __|_   _|   __|   __|_   _|     |  |  |
+//  |   __|     |__   | | | |   __|   __| | | |   --|     |
+//  |__|  |__|__|_____| |_| |__|  |_____| |_| |_____|__|__|  HYPRLAND
+//
+//  by Bina
+
+
 {
-    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
     "logo": {
-        "type": "small",
-        "padding": {
-            "top": 1
-        }
+    	"source": "~/.config/fastfetch/logo.jpg",
+    	"type": "kitty",
+    	"height": 18,
+    	"padding": {
+    		"top": 0
+    	}
     },
     "display": {
-        "separator": " "
+        "separator": "- "
     },
     "modules": [
-        {
-            "key": "╔═══════════╗",
-            "type": "custom"
+
+	{
+            "type": "custom",
+            "format": "\u001b[31m  \u001b[31m  \u001b[32m  \u001b[33m  \u001b[34m  \u001b[35m  \u001b[36m  "
         },
-        {
-            "key": "║ {#31} user    {#keys}║",
+	"break",
+	{
             "type": "title",
-            "format": "{user-name}"
+            "keyWidth": 10
+        },
+        "break",
+        {
+            "type": "os",
+            "key": " ",
+            "keyColor": "34",  // = color4
         },
         {
-            "key": "║ {#32}󰇅 hname   {#keys}║",
-            "type": "title",
-            "format": "{host-name}"
+            "type": "kernel",
+            "key": " ",
+            "keyColor": "34",
         },
         {
-            "key": "║ {#33}󰅐 uptime  {#keys}║",
-            "type": "uptime"
+            "type": "packages",
+            "format": "{} (pacman)",
+            "key": " ",
+            "keyColor": "34",  
         },
         {
-            "key": "║ {#34}{icon} distro  {#keys}║",
-            "type": "os"
+            "type": "shell",
+            "key": " ",
+            "keyColor": "34", 
         },
         {
-            "key": "║ {#35} kernel  {#keys}║",
-            "type": "kernel"
+            "type": "terminal",
+            "key": " ",
+            "keyColor": "34", 
         },
         {
-            "key": "║ {#36}󰇄 desktop {#keys}║",
-            "type": "de"
+            "type": "wm",
+            "key": " ",
+            "keyColor": "34", 
         },
         {
-            "key": "║ {#31} term    {#keys}║",
-            "type": "terminal"
+            "type": "cursor",
+            "key": " ",
+            "keyColor": "34", 
         },
         {
-            "key": "║ {#32} shell   {#keys}║",
-            "type": "shell"
+            "type": "terminalfont",
+            "key": " ",
+            "keyColor": "34", 
         },
         {
-            "key": "║ {#33}󰍛 cpu     {#keys}║",
-            "type": "cpu",
-            "showPeCoreCount": true
+            "type": "uptime",
+            "key": " ",
+            "keyColor": "34", 
         },
         {
-            "key": "║ {#34}󰉉 disk    {#keys}║",
-            "type": "disk",
-            "folders": "/"
+            "type": "datetime",
+            "format": "{1}-{3}-{11}",
+            "key": " ",
+            "keyColor": "34", 
         },
         {
-            "key": "║ {#35} memory  {#keys}║",
-            "type": "memory"
+            "type": "media",
+            "key": "󰝚 ",
+            "keyColor": "34", 
         },
         {
-            "key": "║ {#36}󰩟 network {#keys}║",
-            "type": "localip",
-            "format": "{ipv4} ({ifname})"
+            "type": "player",
+            "key": " ",
+            "keyColor": "34", 
         },
+        "break",
         {
-            "key": "╠═══════════╣",
-            "type": "custom"
+            "type": "custom",
+            "format": "\u001b[31m  \u001b[31m  \u001b[32m  \u001b[33m  \u001b[34m  \u001b[35m  \u001b[36m  "
         },
-        {
-            "key": "║ {#39} colors  {#keys}║",
-            "type": "colors",
-            "symbol": "circle"
-        },
-        {
-            "key": "╚═══════════╝",
-            "type": "custom"
-        }
+        "break",
+        "break",
     ]
 }
