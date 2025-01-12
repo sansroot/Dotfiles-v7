@@ -67,7 +67,7 @@ sudo pacman -S neovim
 
 <a>https://github.com/NvChad/NvChad</a>
 
-#### Catppuccin Mocha DARK cursor: 
+#### Catppuccin Mocha *DARK* cursor: 
 
 <a>https://www.gnome-look.org/p/2135236</a>
 
@@ -75,6 +75,10 @@ sudo pacman -S neovim
 #### Catppuccin GTK theme: 
 
 <a>https://www.gnome-look.org/p/1996672</a>
+
+#### Tela circle icons:
+
+<a>https://www.pling.com/p/1359276/</a>
 
 
 ## Just to help you
@@ -89,7 +93,6 @@ sudo pacman -S nwg-look
 ```
 #### Screen share in hyprland: 
 <a>https://gist.github.com/brunoanc/2dea6ddf6974ba4e5d26c3139ffb7580</a>
-
 
 ## Keybinds
 
