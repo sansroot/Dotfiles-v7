@@ -92,6 +92,11 @@ sudo pacman -S nwg-look
 
 ## Keybinds
 
+
+<details>
+
+---
+  
 mainmod(super) + T: switch themes
 
 mainmod(super) + Return: open terminal
@@ -168,6 +173,11 @@ mainmod(super) + 8: move to workspace 8
 mainmod(super) + 9: move to workspace 9
 
 mainmod(super) + 0: move to workspace 10
+
+</details>
+
+---
+
 
 ![green](https://github.com/user-attachments/assets/0ad9718c-ba40-4c8b-969b-205b587fe7bf)
 
