@@ -12,10 +12,6 @@ sudo pacman -S zsh
 ```
 sudo pacman -S hyprland 
 ```
-#### Hyprpaper: 
-```
-sudo pacman -S hyprpaper 
-```
 #### Hyprshot: 
 ```
 yay -S hyprshot 
