@@ -94,6 +94,7 @@ sudo pacman -S nwg-look
 
 <details>
 
+---
   
 mainmod(super) + T: switch themes
 
@@ -173,6 +174,8 @@ mainmod(super) + 9: move to workspace 9
 mainmod(super) + 0: move to workspace 10
 
 </details>
+
+---
 
 ![mauve](https://github.com/user-attachments/assets/86803614-aca6-4520-ba7d-705b246d8432)
 
