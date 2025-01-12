@@ -8,7 +8,7 @@
 
 {
     "logo": {
-    	"source": "~/.config/fastfetch/sapphire.jpg",
+    	"source": "~/.config/fastfetch/sapphire1.jpg",
     	"type": "kitty",
     	"height": 18,
     	"padding": {
