@@ -169,9 +169,7 @@ mainmod(super) + 9: move to workspace 9
 
 mainmod(super) + 0: move to workspace 10
 
-![image](https://github.com/user-attachments/assets/50e9f067-19a0-4c89-afc7-644e0b714a31)
-![image](https://github.com/user-attachments/assets/264a85ac-d59a-442d-bbd5-f75765d05bd8)
-![image](https://github.com/user-attachments/assets/99507c95-f973-44fa-91d9-5b3e34ef294e)
+![mauve](https://github.com/user-attachments/assets/86803614-aca6-4520-ba7d-705b246d8432)
 
 
 
