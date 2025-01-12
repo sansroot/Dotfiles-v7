@@ -76,6 +76,10 @@ sudo pacman -S neovim
 
 <a>https://www.gnome-look.org/p/1996672</a>
 
+#### Tela circle icons:
+
+<a>https://www.pling.com/p/1359276/</a>
+
 
 ## Just to help you
 
