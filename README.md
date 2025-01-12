@@ -67,7 +67,7 @@ sudo pacman -S neovim
 
 <a>https://github.com/NvChad/NvChad</a>
 
-#### Catppuccin Mocha DARK cursor: 
+#### Catppuccin Mocha *DARK* cursor: 
 
 <a>https://www.gnome-look.org/p/2135236</a>
 
