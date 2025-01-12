@@ -92,6 +92,7 @@ sudo pacman -S nwg-look
 
 ## Keybinds
 <details>
+  
 mainmod(super) + T: switch themes
 
 mainmod(super) + Return: open terminal
