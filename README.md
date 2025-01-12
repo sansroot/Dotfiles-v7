@@ -43,7 +43,7 @@ sudo pacman -S fastfetch
 #### PowerLevel10K:
 
 <a>https://github.com/romkatv/powerlevel10k</a>
-## Rofi (special case)
+## Rofi
 #### Rofi:
   ```
   sudo pacman -S rofi-wayland 
