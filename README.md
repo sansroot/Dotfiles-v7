@@ -169,11 +169,9 @@ mainmod(super) + 9: move to workspace 9
 
 mainmod(super) + 0: move to workspace 10
 
+![lavender](https://github.com/user-attachments/assets/6c763e8f-8de5-490f-a9c1-52b2dcdaf970)
 
 
-![image](https://github.com/user-attachments/assets/f492b513-36ca-4df4-9ead-1bae207be77b)
-![image](https://github.com/user-attachments/assets/3e769f11-002d-416d-9c11-dad57bb41866)
-![image](https://github.com/user-attachments/assets/a69cefaa-406c-4d5e-8f18-b68650dc19ea)
 
 
 
