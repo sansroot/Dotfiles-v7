@@ -152,7 +152,7 @@ element {
     border:                      0px solid;
     border-radius:               20px;
     border-bottom:               5px;
-    border-color:              #fab387;
+    border-color:              #f38ba8;
     background-color:            @background-alt;
     text-color:                  @foreground;
     cursor:                      pointer;
