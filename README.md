@@ -1,6 +1,6 @@
 ## 1. Dependencies installation
 
-**You will have to manually install the dependencies (sometimes package names changes)**
+**You will have to manually install the dependencies (sometimes package names changes, right, ***hyprshot***?)**
 
 #### Waybar:
 ```
