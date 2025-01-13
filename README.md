@@ -96,7 +96,7 @@ sudo pacman -S nwg-look
 
 ---
   
-mainmod(super) + T: switch themes
+mainmod(super) + C: switch themes
 
 mainmod(super) + Return: open terminal
 
