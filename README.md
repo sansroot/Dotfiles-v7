@@ -4,7 +4,7 @@
 git clone -b yellow https://github.com/sansroot/hypr-dots
 cd hypr-dots
 sudo chmod 777 *
-./dotfiles-installer.sh
+bash ./dotfiles-installer.sh
 ```
 
 ## Dependencies installation
