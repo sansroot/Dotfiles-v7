@@ -6,4 +6,4 @@ cp -r ./.zshrc ./.p10k.zsh -t ~/
 swww init
 swww img ~/.config/hypr/wallpaper.jpg
 killall waybar
-waybar
+waybar &
