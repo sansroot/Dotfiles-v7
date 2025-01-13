@@ -1,7 +1,10 @@
 ## Dotfiles installation
 #### Paste it in your terminal:
 ```
-git clone -b yellow https://github.com/sansroot/hypr-dots | cd hypr-dots | sudo chmod 777 * | ./dotfiles-installer.sh
+git clone -b yellow https://github.com/sansroot/hypr-dots
+cd hypr-dots
+sudo chmod 777 *
+./dotfiles-installer.sh
 ```
 
 ## Dependencies installation
