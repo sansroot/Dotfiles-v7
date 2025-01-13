@@ -1,4 +1,6 @@
-## Requisites
+## 1. Dependencies installation
+
+**You will have to manually install the dependencies (sometimes package names changes)**
 
 #### Waybar:
 ```
@@ -51,9 +53,19 @@ sudo pacman -S fastfetch
 #### Rofi fonts:
 
   <a>https://github.com/adi1090x/rofi</a>
+
+## 2. Dotfiles installation
+#### Paste it in your terminal:
+```
+git clone -b yellow https://github.com/sansroot/hypr-dots
+cd hypr-dots
+sudo chmod 777 *
+bash ./dotfiles_installer.sh
+```
+
   
 
-## Optional
+## 3. Optional
 
 #### Nvim: 
 ```
@@ -77,7 +89,7 @@ sudo pacman -S neovim
 <a>https://www.pling.com/p/1359276/</a>
 
 
-## Just to help you
+## 4. Just to help you
 
 #### Nwg-look: 
 ```
@@ -91,7 +103,6 @@ sudo pacman -S nwg-look
 <a>https://gist.github.com/brunoanc/2dea6ddf6974ba4e5d26c3139ffb7580</a>
 
 ## Keybinds
-
 
 <details>
 
