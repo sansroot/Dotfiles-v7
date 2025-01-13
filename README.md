@@ -102,7 +102,7 @@ sudo pacman -S nwg-look
 #### Screen share in hyprland: 
 <a>https://gist.github.com/brunoanc/2dea6ddf6974ba4e5d26c3139ffb7580</a>
 
-## Keybinds
+#### Keybinds
 
 <details>
 
