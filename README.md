@@ -1,12 +1,3 @@
-## Dotfiles installation
-#### Paste it in your terminal:
-```
-git clone -b yellow https://github.com/sansroot/hypr-dots
-cd hypr-dots
-sudo chmod 777 *
-bash ./dotfiles_installer.sh
-```
-
 ## Dependencies installation
 
 **You will have to manually install the dependencies (sometimes package names changes)**
@@ -62,6 +53,16 @@ sudo pacman -S fastfetch
 #### Rofi fonts:
 
   <a>https://github.com/adi1090x/rofi</a>
+
+## Dotfiles installation
+#### Paste it in your terminal:
+```
+git clone -b yellow https://github.com/sansroot/hypr-dots
+cd hypr-dots
+sudo chmod 777 *
+bash ./dotfiles_installer.sh
+```
+
   
 
 ## Optional
