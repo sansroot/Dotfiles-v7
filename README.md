@@ -89,7 +89,7 @@ sudo pacman -S neovim
 <a>https://www.pling.com/p/1359276/</a>
 
 
-## 4. Just to help you
+## 4. To help you
 
 #### Nwg-look: 
 ```
