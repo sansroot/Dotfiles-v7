@@ -1,4 +1,4 @@
-## Dependencies installation
+## 1. Dependencies installation
 
 **You will have to manually install the dependencies (sometimes package names changes)**
 
@@ -54,7 +54,7 @@ sudo pacman -S fastfetch
 
   <a>https://github.com/adi1090x/rofi</a>
 
-## Dotfiles installation
+## 2. Dotfiles installation
 #### Paste it in your terminal:
 ```
 git clone -b yellow https://github.com/sansroot/hypr-dots
@@ -65,7 +65,7 @@ bash ./dotfiles_installer.sh
 
   
 
-## Optional
+## 3. Optional
 
 #### Nvim: 
 ```
@@ -89,7 +89,7 @@ sudo pacman -S neovim
 <a>https://www.pling.com/p/1359276/</a>
 
 
-## Just to help you
+## 4. Just to help you
 
 #### Nwg-look: 
 ```
