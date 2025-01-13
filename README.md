@@ -57,7 +57,7 @@ sudo pacman -S fastfetch
 ## 2. Dotfiles installation
 #### Paste it in your terminal:
 ```
-git clone -b yellow https://github.com/sansroot/hypr-dots
+git clone -b mauve https://github.com/sansroot/hypr-dots
 cd hypr-dots
 sudo chmod 777 *
 bash ./dotfiles_installer.sh
