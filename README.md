@@ -59,7 +59,7 @@ sudo pacman -S fastfetch
 ```
 git clone -b yellow https://github.com/sansroot/hypr-dots
 cd hypr-dots
-sudo chmod 777 *
+sudo chmod -R 777 *
 bash ./dotfiles_installer.sh
 ```
 
