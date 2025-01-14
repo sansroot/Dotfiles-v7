@@ -1,7 +1,7 @@
 #!/bin/bash
 
 cp -r ./fastfetch ./hypr ./kitty ./rofi ./waybar -t ~/.config
-cp -r ./PLACE-IN-DOCUMENTS-DIRECTORY/themes -t ~/Documents/
+cp -r ./themes -t ~/Documents/
 cp -r ./.zshrc ./.p10k.zsh -t ~/
 swww init &> /dev/null
 swww img ~/.config/hypr/wallpaper.jpg &> /dev/null
