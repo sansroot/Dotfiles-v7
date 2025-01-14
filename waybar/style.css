@@ -17,15 +17,15 @@ window#waybar {
     border-radius: 10px;
     transition: none;
     background: #1E1D2F; 
-    color: #f9e2af;
+    color: #89b4fa;
     border-bottom: 3px;
     border-style: solid;
-    border-color: #f9e2af;
+    border-color: #89b4fa;
     transition: 0.3s;
 }
 #network:hover { 
     color: #1E1D2F;
-    background: #f9e2af;
+    background: #89b4fa;
 }
 #language{
     margin-top: 10px;
@@ -36,15 +36,15 @@ window#waybar {
     border-radius: 10px;
     transition: none;
     background: #1E1D2F; 
-    color: #f9e2af;
+    color: #89b4fa;
     border-bottom: 3px;
     border-style: solid;
-    border-color: #f9e2af;
+    border-color: #89b4fa;
     transition: 0.3s;
 }
 #language:hover{
     color: #1E1D2F; 
-    background: #f9e2af; 
+    background: #89b4fa; 
 }
 #pulseaudio {
     margin-top: 10px;
@@ -55,27 +55,27 @@ window#waybar {
     border-radius: 10px;
     transition: none;
     background: #1E1D2F; 
-    color: #f9e2af;
+    color: #89b4fa;
     padding: 8px;
     border-bottom: 3px;
     border-style: solid;
-    border-color: #f9e2af;
+    border-color: #89b4fa;
     transition: 0.3s;
 }
 #pulseaudio:hover{ 
-    background: #f9e2af;
+    background: #89b4fa;
     color: #1E1D2F;
 }
 #pulseaudio.muted {
-    color: #f9e2af;
+    color: #89b4fa;
     background: #1E1D2F; 
     border-bottom: 3px;
     border-style: solid;
-    border-color: #f9e2af;
+    border-color: #89b4fa;
     transition: 0.3s;
 }
 #pulseaudio.muted:hover {
-    background: #f9e2af;
+    background: #89b4fa;
     color: #1E1D2F; 
 
 }
@@ -88,15 +88,15 @@ window#waybar {
     border-radius: 10px;
     transition: none;
     background: #1E1D2F; 
-    color: #f9e2af;
+    color: #89b4fa;
     border-bottom: 3px;
     border-style: solid;
-    border-color: #f9e2af;
+    border-color: #89b4fa;
     transition: 0.3s;
 }
 #clock:hover {
     color: #1E1D2F; 
-    background: #f9e2af;
+    background: #89b4fa;
 }
 #disk{
     margin-top: 10px;
@@ -107,15 +107,15 @@ window#waybar {
     border-radius: 10px;
     transition: none;
     background: #1E1D2F; 
-    color: #f9e2af;
+    color: #89b4fa;
     border-bottom: 3px;
     border-style: solid;
-    border-color: #f9e2af;
+    border-color: #89b4fa;
     transition: 0.3s;
 }
 #disk:hover{
     color: #1E1D2F; 
-    background: #f9e2af;
+    background: #89b4fa;
 }
 #privacy{
     margin-top: 10px;
@@ -126,10 +126,10 @@ window#waybar {
     border-radius: 10px;
     transition: none;
     background: #1E1D2F; 
-    color: #f9e2af;
+    color: #89b4fa;
     border-bottom: 3px;
     border-style: solid;
-    border-color: #f9e2af;
+    border-color: #89b4fa;
     transition: 0.3s;
 }
 #idle_inhibitor{
@@ -141,10 +141,10 @@ window#waybar {
     border-radius: 10px;
     transition: none;
     background: #1E1D2F; 
-    color: #f9e2af;
+    color: #89b4fa;
     border-bottom: 3px;
     border-style: solid;
-    border-color: #f9e2af;
+    border-color: #89b4fa;
     transition: 0.3s;
 }
 #idle_inhibitor.activated{
@@ -157,11 +157,11 @@ window#waybar {
     border-color: #89b4fa;
 }
 #idle_inhibitor.deactivated{
-    color: #f9e2af
+    color: #89b4fa
 }
 #idle_inhibitor.deactivated:hover{
     color: #1E1D2F; 
-    background: #f9e2af;
+    background: #89b4fa;
 }
 #memory {
     margin-top: 10px;
@@ -172,15 +172,15 @@ window#waybar {
     border-radius: 10px;
     transition: none;
     background: #1E1D2F; 
-    color: #f9e2af;
+    color: #89b4fa;
     border-bottom: 3px;
     border-style: solid;
-    border-color: #f9e2af;
+    border-color: #89b4fa;
     transition: 0.3s;
 }
 #memory:hover { 
     color: #1E1D2F; 
-    background: #f9e2af;
+    background: #89b4fa;
 
 }
 #cpu {
@@ -192,15 +192,15 @@ window#waybar {
     border-radius: 10px;
     transition: none;
     background: #1E1D2F; 
-    color: #f9e2af;
+    color: #89b4fa;
     border-bottom: 3px;
     border-style: solid;
-    border-color: #f9e2af;
+    border-color: #89b4fa;
     transition: 0.3s;
 }
 #cpu:hover {
     color: #1E1D2F; 
-    background: #f9e2af;
+    background: #89b4fa;
 
 }
 #custom-launcher {
@@ -211,26 +211,26 @@ window#waybar {
     padding-right: 5px;
     border-radius: 10px;
     transition: none;
-    color: #f9e2af;
+    color: #89b4fa;
     background: #1E1D2F;
     transition: 0.3s;
     border-bottom: 3px;
     border-style: solid;
-    border-color: #f9e2af;
+    border-color: #89b4fa;
 }
 #custom-launcher:hover { 
-    background: #f9e2af;
+    background: #89b4fa;
     color: #1E1D2F;
 }
 #network.disconnected {
-    color: #f9e2af;
+    color: #89b4fa;
     background: #1E1D2F; 
     border-bottom: 3px;
     border-style: solid;
-    border-color: #f9e2af;
+    border-color: #89b4fa;
 }
 #network.disconnected:hover {
-    background: #f9e2af;
+    background: #89b4fa;
     color: #1E1D2F; 
 }
 #custom-power {
@@ -244,17 +244,17 @@ window#waybar {
     border-radius: 10px;
     transition: none;
     background: #1E1D2F; 
-    color: #f9e2af;
+    color: #89b4fa;
     border-bottom: 3px;
     border-style: solid;
-    border-color: #f9e2af;
+    border-color: #89b4fa;
     transition: 0.3s;
 }
 #custom-power:hover {
 
-    background: #f9e2af;
+    background: #89b4fa;
     color: #1E1D2F;
-    border-color: #f9e2af;
+    border-color: #89b4fa;
 
 }
 #workspaces {
@@ -264,12 +264,12 @@ window#waybar {
     background: #1E1D2F; 
     border-bottom: 3px;
     border-style: solid;
-    border-color: #f9e2af;
-    color: #f9e2af;
+    border-color: #89b4fa;
+    color: #89b4fa;
     transition: 0.3s;
 }
 #workspaces button {
-    color: #f9e2af;
+    color: #89b4fa;
     transition: 0.3s;
 }
 #workspaces button:hover {
@@ -285,10 +285,10 @@ window#waybar {
     border-radius: 10px;
     transition: none;
     background: #1E1D2F; 
-    color: #f9e2af;
+    color: #89b4fa;
     border-bottom: 3px;
     border-style: solid;
-    border-color: #f9e2af;
+    border-color: #89b4fa;
     transition: 0.3s;
 }
 #tray menu{
@@ -300,9 +300,9 @@ window#waybar {
     border-radius: 10px;
     transition: none;
     background: #1E1D2F; 
-    color: #f9e2af;
+    color: #89b4fa;
     border-bottom: 3px;
     border-style: solid;
-    border-color: #f9e2af;
+    border-color: #89b4fa;
     transition: 0.3s;
 }
