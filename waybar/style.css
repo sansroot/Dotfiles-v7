@@ -252,9 +252,9 @@ window#waybar {
 }
 #custom-power:hover {
 
-    background: #89b4fa;
+    background: #f38ba8;
     color: #1E1D2F;
-    border-color: #89b4fa;
+    border-color: #f38ba8;
 
 }
 #workspaces {
