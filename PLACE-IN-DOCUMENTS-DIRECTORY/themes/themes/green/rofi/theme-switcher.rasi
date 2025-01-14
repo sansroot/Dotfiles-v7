@@ -1,12 +1,3 @@
-/**
- *
- * Author : Aditya Shakya (adi1090x)
- * Github : @adi1090x
- * 
- * Rofi Theme File
- * Rofi Version: 1.7.3
- **/
-
 /*****----- Configuration -----*****/
 configuration {
     show-icons:                 false;
@@ -14,11 +5,11 @@ configuration {
 
 /*****----- Global Properties -----*****/
 @import                          "./colors.rasi"
-@import                          "./fonts.rasi"
 
-/*
-USE_BUTTONS=YES
-*/
+
+*{
+    font: "JetBrains Mono Nerd Font 11";
+}
 
 /*****----- Main Window -----*****/
 window {
@@ -27,7 +18,7 @@ window {
     location:                    center;
     anchor:                      center;
     fullscreen:                  false;
-    width:                       1100px;
+    width:                       500px;
     fixed-width: false;
     x-offset:                    0px;
     y-offset:                    0px;
@@ -50,7 +41,6 @@ mainbox {
     spacing:                     15px;
     margin:                      0px;
     padding:                     20px;
-    border:                      0px solid;
     border-radius:               20px;
     border-color:                @selected;
     background-color:            transparent;
@@ -75,22 +65,7 @@ dummy {
     background-color:            transparent;
 }
 
-textbox-prompt-colon {
-    enabled:                     true;
-    expand:                      false;
-    str:                         "";
-    padding:                     12px 16px;
-    border-radius:               20px;
-    background-color:            @urgent;
-    text-color:                  @background;
-}
-prompt {
-    enabled:                     true;
-    padding:                     12px;
-    border-radius:               20px;
-    background-color:            @active;
-    text-color:                  @background;
-}
+
 
 /*****----- Message -----*****/
 message {
@@ -125,13 +100,13 @@ error-message {
 listview {
     enabled:                     true;
     columns:                     1000;
-    lines:                       1;
+    lines:                       3;
     cycle:                       true;
     dynamic:                     true;
     scrollbar:                   false;
     layout:                      vertical;
     reverse:                     false;
-    fixed-height:                true;
+    fixed-height:                false;
     fixed-columns:               false;
     
     spacing:                     15px;
@@ -142,7 +117,6 @@ listview {
     border-color:                @selected;
     background-color:            transparent;
     text-color:                  @foreground;
-    cursor:                      "default";
 }
 
 /*****----- Elements -----*****/
@@ -150,17 +124,16 @@ element {
     enabled:                     true;
     spacing:                     0px;
     margin:                      0px;
-    padding:                     40px 10px;
+    padding:                     35px;
     border:                      0px solid;
     border-radius:               20px;
     border-bottom:               5px;
-    border-color:              #f38ba8;
     background-color:            @background-alt;
     text-color:                  @foreground;
     cursor:                      pointer;
 }
 element-text {
-    font:                        "Jetbrains 14";
+    font:                        @font;
     background-color:            transparent;
     text-color:                  inherit;
     cursor:                      inherit;
