@@ -67,15 +67,15 @@ window#waybar {
     color: #1E1D2F;
 }
 #pulseaudio.muted {
-    color: #89b4fa;
+    color: #f38ba8;
     background: #1E1D2F; 
     border-bottom: 3px;
     border-style: solid;
-    border-color: #89b4fa;
+    border-color: #f38ba8;
     transition: 0.3s;
 }
 #pulseaudio.muted:hover {
-    background: #89b4fa;
+    background: #f38ba8;
     color: #1E1D2F; 
 
 }
@@ -252,9 +252,9 @@ window#waybar {
 }
 #custom-power:hover {
 
-    background: #89b4fa;
+    background: #f38ba8;
     color: #1E1D2F;
-    border-color: #89b4fa;
+    border-color: #f38ba8;
 
 }
 #workspaces {
