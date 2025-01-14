@@ -189,7 +189,7 @@ mainmod(super) + 0: move to workspace 10
 
 ---
 
-![github yellow](https://github.com/user-attachments/assets/ee0cf1c2-2dc4-4750-a964-34589da1c7dd)
+![pink](https://github.com/user-attachments/assets/5787c023-d3bc-4991-9cfe-c0f2f7a99a22)
 
 
 
