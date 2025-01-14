@@ -1,12 +1,3 @@
-/**
- *
- * Author : Aditya Shakya (adi1090x)
- * Github : @adi1090x
- * 
- * Rofi Theme File
- * Rofi Version: 1.7.3
- **/
-
 /*****----- Configuration -----*****/
 configuration {
     show-icons:                 false;
@@ -15,10 +6,6 @@ configuration {
 /*****----- Global Properties -----*****/
 @import                          "./colors.rasi"
 @import                          "./fonts.rasi"
-
-/*
-USE_BUTTONS=YES
-*/
 
 /*****----- Main Window -----*****/
 window {
@@ -129,8 +116,8 @@ listview {
     scrollbar:                   false;
     layout:                      vertical;
     reverse:                     false;
-    fixed-height:                true;
-    fixed-columns:               true;
+    fixed-height:                false;
+    fixed-columns:               false;
     
     spacing:                     15px;
     margin:                      0px;
@@ -152,7 +139,7 @@ element {
     border:                      0px solid;
     border-radius:               20px;
     border-bottom:               5px;
-    border-color:              #f9e2af;
+    border-color:                @selected;
     background-color:            @background-alt;
     text-color:                  @foreground;
     cursor:                      pointer;
