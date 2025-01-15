@@ -121,6 +121,4 @@ source $ZSH/oh-my-zsh.sh
 alias vim=nvim
 #cat ~/Documents/space
 alias ls='ls -sal'
-alias neofetch='neofetch --kitty ~/Pictures/neofetch1.jpg --size 175'
-alias fastfetch='fastfetch --logo Pictures/neofetch1.jpg --logo-type kitty-direct --logo-width 28 --logo-height 14'
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
