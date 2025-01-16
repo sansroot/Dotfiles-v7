@@ -1,0 +1,19 @@
+configuration{
+    modi: "drun";
+    icon-theme: "Oranchelo";
+    show-icons: true;
+    terminal: "kitty";
+    drun-display-format: "{icon} {name}";
+    location: 0;
+    disable-history: false;
+    hide-scrollbar: true;
+    display-drun: "   ";
+    display-run: "";
+    display-window: "󰕰";
+    display-Network: "󰤨";
+    sidebar-mode: false;
+}
+
+//@theme "catppuccin-mocha"
+
+@theme "~/.config/rofi/menu.rasi"
