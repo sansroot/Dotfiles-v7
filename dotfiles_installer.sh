@@ -24,3 +24,5 @@ swww init &> /dev/null
 swww img ~/.config/hypr/wallpaper.jpg &> /dev/null
 killall waybar &> /dev/null
 waybar &> /dev/null &
+cd ..
+rm -rf hypr-dots
