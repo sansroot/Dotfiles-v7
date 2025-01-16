@@ -223,14 +223,14 @@ window#waybar {
     color: #1E1D2F;
 }
 #network.disconnected {
-    color: #f5c2e7;
+    color: #f38ba8;
     background: #1E1D2F; 
     border-bottom: 3px;
     border-style: solid;
-    border-color: #f5c2e7;
+    border-color: #f38ba8;
 }
 #network.disconnected:hover {
-    background: #f5c2e7;
+    background: #f38ba8;
     color: #1E1D2F; 
 }
 #custom-power {
