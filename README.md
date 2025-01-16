@@ -1,4 +1,4 @@
-# Rice made with catppuccin color scheme
+# Rice made with Catppuccin color scheme
 
 ## 1. Dependencies installation
 
