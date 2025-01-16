@@ -66,16 +66,17 @@ window#waybar {
     background: #BA9683;
     color: #1C1B29;
 }
+
 #pulseaudio.muted {
-    color: #BA9683;
+    color: #f38ba8;
     background: #1C1B29; 
     border-bottom: 3px;
     border-style: solid;
-    border-color: #BA9683;
+    border-color: #f38ba8;
     transition: 0.3s;
 }
 #pulseaudio.muted:hover {
-    background: #BA9683;
+    background: #f38ba8;
     color: #1C1B29; 
 
 }
@@ -222,15 +223,16 @@ window#waybar {
     background: #BA9683;
     color: #1C1B29;
 }
+
 #network.disconnected {
-    color: #BA9683;
+    color: #f38ba8;
     background: #1C1B29; 
     border-bottom: 3px;
     border-style: solid;
-    border-color: #BA9683;
+    border-color: #f38ba8;
 }
 #network.disconnected:hover {
-    background: #BA9683;
+    background: #f38ba8;
     color: #1C1B29; 
 }
 #custom-power {
@@ -252,9 +254,9 @@ window#waybar {
 }
 #custom-power:hover {
 
-    background: #BA9683;
+    background: #f38ba8;
     color: #1C1B29;
-    border-color: #BA9683;
+    border-color: #f38ba8;
 
 }
 #workspaces {

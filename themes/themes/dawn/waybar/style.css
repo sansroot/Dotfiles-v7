@@ -222,15 +222,16 @@ window#waybar {
     background: #E4CAAF;
     color: #232136;
 }
+
 #network.disconnected {
-    color: #E4CAAF;
+    color: #f38ba8;
     background: #232136; 
     border-bottom: 3px;
     border-style: solid;
-    border-color: #E4CAAF;
+    border-color: #f38ba8;
 }
 #network.disconnected:hover {
-    background: #E4CAAF;
+    background: #f38ba8;
     color: #232136; 
 }
 #custom-power {
