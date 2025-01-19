@@ -75,7 +75,8 @@ read variavel
 clear  
 cp -r ./fastfetch ./hypr ./kitty ./rofi ./waybar -t ~/.config
 cp -r ./themes -t ~/Documents/
-sudo cp -r ./crosshair-cursors -t /usr/share/icons/ 
+sudo cp -r ./cursor/hypr-dots -t /usr/share/icons/ 
+sudo cp -r ./gtktheme/hypr-dots -t /usr/share/themes/ 
 cp -r ./.zshrc ./.p10k.zsh -t ~/
 swww init &> /dev/null
 swww img ~/.config/hypr/wallpaper.jpg &> /dev/null
