@@ -82,9 +82,6 @@ sudo pacman -S neovim
 <a>https://github.com/NvChad/NvChad</a>
 
 
-#### Catppuccin GTK theme: 
-
-<a>https://www.gnome-look.org/p/1996672</a>
 
 #### Tela circle icons:
 
