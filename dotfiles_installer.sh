@@ -84,3 +84,4 @@ killall waybar &> /dev/null
 waybar &> /dev/null &
 cd ..
 rm -rf hypr-dots
+hyprctl setcursor hypr-dots 24
