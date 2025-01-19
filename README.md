@@ -82,9 +82,6 @@ sudo pacman -S neovim
 
 <a>https://github.com/NvChad/NvChad</a>
 
-#### Catppuccin Mocha *DARK* cursor: 
-
-<a>https://www.gnome-look.org/p/2135236</a>
 
 
 #### Catppuccin GTK theme: 
@@ -98,9 +95,10 @@ sudo pacman -S neovim
 
 ## 4. To help you
 
-#### Nwg-look, Lxappearance and Gnome-tweaks: 
+
+#### Nwg-look (cursor and gtk theme apply): 
 ```
-sudo pacman -S nwg-look lxappearance gnome-tweaks
+sudo pacman -S nwg-look
 ```
 #### Apple Keyboard native path to configure key layout: 
 ```
