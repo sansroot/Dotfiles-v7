@@ -36,6 +36,21 @@ if [ "$option" == "Y" ]; then
     sed -i "s/@240/@$refresh/" ./themes/themes/sapphire/hypr/hyprland.conf
     sed -i "s/@240/@$refresh/" ./themes/themes/tokyonight/hypr/hyprland.conf
     sed -i "s/@240/@$refresh/" ./themes/themes/yellow/hypr/hyprland.conf
+    echo "type the resolution of your monitor, example [1920x1080, 1280x720]"
+    read resolution
+    sed -i "s/1920x1080@/$resolution@/" ./hypr/hyprland.conf
+    sed -i "s/1920x1080@/$resolution@/" ./themes/themes/blue/hypr/hyprland.conf
+    sed -i "s/1920x1080@/$resolution@/" ./themes/themes/dawn/hypr/hyprland.conf
+    sed -i "s/1920x1080@/$resolution@/" ./themes/themes/green/hypr/hyprland.conf
+    sed -i "s/1920x1080@/$resolution@/" ./themes/themes/lavender/hypr/hyprland.conf
+    sed -i "s/1920x1080@/$resolution@/" ./themes/themes/mauve/hypr/hyprland.conf
+    sed -i "s/1920x1080@/$resolution@/" ./themes/themes/moon/hypr/hyprland.conf
+    sed -i "s/1920x1080@/$resolution@/" ./themes/themes/peach/hypr/hyprland.conf
+    sed -i "s/1920x1080@/$resolution@/" ./themes/themes/pink/hypr/hyprland.conf
+    sed -i "s/1920x1080@/$resolution@/" ./themes/themes/red/hypr/hyprland.conf
+    sed -i "s/1920x1080@/$resolution@/" ./themes/themes/sapphire/hypr/hyprland.conf
+    sed -i "s/1920x1080@/$resolution@/" ./themes/themes/tokyonight/hypr/hyprland.conf
+    sed -i "s/1920x1080@/$resolution@/" ./themes/themes/yellow/hypr/hyprland.conf
 else
     echo "When you log on hyprland, run this script again to set you monitor and refresh rate" 
     sleep 4   
