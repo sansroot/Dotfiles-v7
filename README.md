@@ -99,9 +99,9 @@ sudo pacman -S neovim
 
 ## 4. To help you
 
-#### Nwg-look: 
+#### Nwg-look, Lxappearance and Gnome-tweaks: 
 ```
-sudo pacman -S nwg-look 
+sudo pacman -S nwg-look lxappearance gnome-tweaks
 ```
 #### Apple Keyboard native path to configure key layout: 
 ```
