@@ -1,6 +1,5 @@
 # A Catppuccin rice
 
-# Rice made with Catppuccin color scheme
 
 ## 1. Dependencies installation
 
