@@ -90,7 +90,7 @@ sudo pacman -S neovim
 ## 4. To help you
 
 
-#### Nwg-look (cursor and gtk theme apply): 
+#### Nwg-look (Gtk theme and cursor apply): 
 ```
 sudo pacman -S nwg-look
 ```
