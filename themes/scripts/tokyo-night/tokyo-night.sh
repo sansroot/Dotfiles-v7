@@ -2,6 +2,6 @@
 
 cp -r ~/Documents/themes/themes/tokyonight/* -t ~/.config/
 swww img ~/.config/hypr/wallpaper.jpg --transition-type wipe --transition-fps 240
-hyprctl setcursor Catppuccin Mocha Dark 25
+hyprctl setcursor Crosshair Cursors 24
 killall waybar
 waybar
