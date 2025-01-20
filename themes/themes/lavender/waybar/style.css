@@ -27,6 +27,45 @@ window#waybar {
     color: #1E1D2F;
     background: #b4befe;
 }
+#battery{
+    margin-top: 10px;
+    margin-left: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 0px;
+    border-radius: 10px;
+    transition: none;
+    background: #1E1D2F; 
+    color: #b4befe;
+    border-bottom: 3px;
+    border-style: solid;
+    border-color: #b4befe;
+    transition: 0.3s; 
+}
+#battery:hover{
+    color: #1E1D2F;
+    background: #b4befe;
+}
+#backlight:hover{
+    color: #1E1D2F;
+    background: #b4befe;
+}
+#backlight{
+    margin-top: 10px;
+    margin-left: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 0px;
+    border-radius: 10px;
+    transition: none;
+    background: #1E1D2F; 
+    color: #b4befe;
+    border-bottom: 3px;
+    border-style: solid;
+    border-color: #b4befe;
+    transition: 0.3s; 
+}
+
 #language{
     margin-top: 10px;
     margin-left: 8px;
