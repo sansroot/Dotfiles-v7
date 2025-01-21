@@ -1,6 +1,6 @@
 * {
     width: 600;
-    font: "JetBrains Mono Nerd Font 14";
+    font: "JetBrainsMono Nerd Font 14";
 }
 @import                          "./colors.rasi"
 element-text, element-icon, mode-switcher {
@@ -87,7 +87,7 @@ element-icon {
 element selected {
     background-color: @selected;
     border-radius: 15px;
-    text-color: #181825;
+    text-color: @background;
     font: @font;
 }
 
