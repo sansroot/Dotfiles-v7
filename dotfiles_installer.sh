@@ -8,6 +8,7 @@ if [ "$option" == "Y" ]; then
     hyprctl monitors all
     echo "type your main monitor, example [DP-1, HDMI-1]"
     read monitor
+    monitor="${monitor^^}"
     sed -i "s/DP-1/$monitor/" ./hypr/hyprland.conf
     sed -i "s/DP-1/$monitor/" ./themes/themes/blue/hypr/hyprland.conf
     sed -i "s/DP-1/$monitor/" ./themes/themes/dawn/hypr/hyprland.conf
@@ -62,6 +63,7 @@ if [ "$option" == "Y" ]; then
     hyprctl monitors all
     echo "type your monitor, example [DP-2, HDMI-2]"
     read monitor
+    monitor="${monitor^^}"
     sed -i "s/DP-2/$monitor/" ./hypr/hyprland.conf
     sed -i "s/DP-2/$monitor/" ./themes/themes/blue/hypr/hyprland.conf
     sed -i "s/DP-2/$monitor/" ./themes/themes/dawn/hypr/hyprland.conf
@@ -106,12 +108,11 @@ if [ "$option" == "Y" ]; then
     sed -i "s/1920x1080@$refresh/$resolution@$refresh/" ./themes/themes/tokyonight/hypr/hyprland.conf
     sed -i "s/1920x1080@$refresh/$resolution@$refresh/" ./themes/themes/yellow/hypr/hyprland.conf
     clear
-    
-    
-    echo "is the second monitor on the left or the right side on your main one? [L/R]"
+    echo "is the second monitor on the left or on the right side on your main one? [L/R]"
     read hypr
     option="${hypr^^}"
     if [ "$option" == "R" ]; then
+        clear
         echo "type the width of your main display"
         echo "example: [1920, 1280]"
         read orientation
@@ -128,8 +129,8 @@ if [ "$option" == "Y" ]; then
         sed -i "s/1920x0/${orientation}x0/" ./themes/themes/sapphire/hypr/hyprland.conf
         sed -i "s/1920x0/${orientation}x0/" ./themes/themes/tokyonight/hypr/hyprland.conf
         sed -i "s/1920x0/${orientation}x0/" ./themes/themes/yellow/hypr/hyprland.conf
-        
     else
+        clear
         echo "type the width of your main display"
         echo "example: [1920, 1280]"
         read orientation
@@ -147,8 +148,6 @@ if [ "$option" == "Y" ]; then
         sed -i "s/1920x0/-${orientation}x0/" ./themes/themes/tokyonight/hypr/hyprland.conf
         sed -i "s/1920x0/-${orientation}x0/" ./themes/themes/yellow/hypr/hyprland.conf
         fi
-
-
 else
     sed -i "s/monitor = DP-2, 1920x1080@144, 1920x0, 1/monitor = DP-2, disabled/" ./hypr/hyprland.conf
     sed -i "s/monitor = DP-2, 1920x1080@144, 1920x0, 1/monitor = DP-2, disabled/" ./themes/themes/blue/hypr/hyprland.conf
@@ -181,19 +180,19 @@ clear
 ifconfig
 echo "Type your network interface name, example: (wlan0/eth0/enp3s0) "
 read interface
-    sed -i "s/wlan0/$interface/" ./waybar/config.jsonc
-    sed -i "s/wlan0/$interface/" ./themes/themes/blue/waybar/config.jsonc
-    sed -i "s/wlan0/$interface/" ./themes/themes/dawn/waybar/config.jsonc
-    sed -i "s/wlan0/$interface/" ./themes/themes/green/waybar/config.jsonc
-    sed -i "s/wlan0/$interface/" ./themes/themes/lavender/waybar/config.jsonc
-    sed -i "s/wlan0/$interface/" ./themes/themes/mauve/waybar/config.jsonc
-    sed -i "s/wlan0/$interface/" ./themes/themes/moon/waybar/config.jsonc
-    sed -i "s/wlan0/$interface/" ./themes/themes/peach/waybar/config.jsonc
-    sed -i "s/wlan0/$interface/" ./themes/themes/pink/waybar/config.jsonc
-    sed -i "s/wlan0/$interface/" ./themes/themes/red/waybar/config.jsonc
-    sed -i "s/wlan0/$interface/" ./themes/themes/sapphire/waybar/config.jsonc
-    sed -i "s/wlan0/$interface/" ./themes/themes/tokyonight/waybar/config.jsonc
-    sed -i "s/wlan0/$interface/" ./themes/themes/yellow/waybar/config.jsonc
+sed -i "s/wlan0/$interface/" ./waybar/config.jsonc
+sed -i "s/wlan0/$interface/" ./themes/themes/blue/waybar/config.jsonc
+sed -i "s/wlan0/$interface/" ./themes/themes/dawn/waybar/config.jsonc
+sed -i "s/wlan0/$interface/" ./themes/themes/green/waybar/config.jsonc
+sed -i "s/wlan0/$interface/" ./themes/themes/lavender/waybar/config.jsonc
+sed -i "s/wlan0/$interface/" ./themes/themes/mauve/waybar/config.jsonc
+sed -i "s/wlan0/$interface/" ./themes/themes/moon/waybar/config.jsonc
+sed -i "s/wlan0/$interface/" ./themes/themes/peach/waybar/config.jsonc
+sed -i "s/wlan0/$interface/" ./themes/themes/pink/waybar/config.jsonc
+sed -i "s/wlan0/$interface/" ./themes/themes/red/waybar/config.jsonc
+sed -i "s/wlan0/$interface/" ./themes/themes/sapphire/waybar/config.jsonc
+sed -i "s/wlan0/$interface/" ./themes/themes/tokyonight/waybar/config.jsonc
+sed -i "s/wlan0/$interface/" ./themes/themes/yellow/waybar/config.jsonc
 clear  
 cp -r ./fastfetch ./hypr ./kitty ./rofi ./waybar -t ~/.config
 cp -r ./themes -t ~/Documents/
