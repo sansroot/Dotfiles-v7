@@ -52,7 +52,6 @@ if [ "$option" == "Y" ]; then
         sed -i "s/1920x1080@$refresh/$resolution@$refresh/" ./themes/themes/sapphire/hypr/hyprland.conf
         sed -i "s/1920x1080@$refresh/$resolution@$refresh/" ./themes/themes/tokyonight/hypr/hyprland.conf
         sed -i "s/1920x1080@$refresh/$resolution@$refresh/" ./themes/themes/yellow/hypr/hyprland.conf
-
     echo "Do you have a second monitor? [Y/N]"
     read hypr
     option="${hypr^^}"
@@ -173,15 +172,10 @@ if [ "$option" == "Y" ]; then
         sed -i "s/monitor:DP-2/monitor:DP-1/" ./themes/themes/tokyonight/hypr/hyprland.conf
         sed -i "s/monitor:DP-2/monitor:DP-1/" ./themes/themes/yellow/hypr/hyprland.conf
     fi
-
 else
     echo "When you log on hyprland, run this script again to set you monitor and refresh rate" 
     sleep 4   
 fi
-
-
-
-
 clear
 ifconfig
 echo "Type your network interface name, example: (wlan0/eth0/enp3s0) "
