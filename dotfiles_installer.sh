@@ -146,7 +146,7 @@ if [ "$option" == "Y" ]; then
         sed -i "s/1920x0/-${orientation}x0/" ./themes/themes/sapphire/hypr/hyprland.conf
         sed -i "s/1920x0/-${orientation}x0/" ./themes/themes/tokyonight/hypr/hyprland.conf
         sed -i "s/1920x0/-${orientation}x0/" ./themes/themes/yellow/hypr/hyprland.conf
-        
+        fi
 
 
 else
