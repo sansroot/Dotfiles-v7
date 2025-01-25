@@ -107,11 +107,11 @@ if [ "$option" == "Y" ]; then
     sed -i "s/1920x1080@$refresh/$resolution@$refresh/" ./themes/themes/sapphire/hypr/hyprland.conf
     sed -i "s/1920x1080@$refresh/$resolution@$refresh/" ./themes/themes/tokyonight/hypr/hyprland.conf
     sed -i "s/1920x1080@$refresh/$resolution@$refresh/" ./themes/themes/yellow/hypr/hyprland.conf
-    echo "is the monitor on left or right?"
-    echo "if it is on the left, type the width of your resolution with a "-" before"
-    echo "example "-1920x0" "-1280x0""
-    echo "if is in the right, just type the width of your monitor"
-    echo "example "1920x0" "1280x0""
+    clear
+    echo "if the monitor is on the left side of the default one, type the width of your resolution with a '-' before and 'x0' after"
+    echo "example: [-1920x0, -1280x0]"
+    echo "if the monitor is on the right side of the default one, type the width of your monitor with 'x0' after"
+    echo "example: [1920x0, 1280x0]"
     read left
     sed -i "s/1920x0/$left/" ./hypr/hyprland.conf
     sed -i "s/1920x0/$left/" ./themes/themes/blue/hypr/hyprland.conf
@@ -148,7 +148,7 @@ fi
 
 clear
 ifconfig
-echo "Type your network interface name (wlan0/eth0/wlan0...): "
+echo "Type your network interface name, example: (wlan0/eth0/enp3s0) "
 read variavel
     sed -i "s/wlan0/$variavel/" ./waybar/config.jsonc
     sed -i "s/wlan0/$variavel/" ./themes/themes/blue/waybar/config.jsonc
