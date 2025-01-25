@@ -105,7 +105,7 @@ sudo pacman -S nwg-look
 
 <details>
 
-# Shortcut Table
+
 
 | Action                                | Shortcut (Key)      |
 |---------------------------------------|---------------------|
