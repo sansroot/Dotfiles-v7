@@ -106,88 +106,52 @@ sudo pacman -S nwg-look
 
 <details>
 
----
-  
-mainmod(super) + C: switch themes
-
-mainmod(super) + Return: open terminal
-
-mainmod(super) + Q: close active window
-
-mainmod(super) + M: exit system
-
-mainmod(super) + F: toggle fullscreen
-
-mainmod(super) + E: open file manager
-
-alt + F: toggle floating windows
-
-alt + X: open menu
-
-alt + Z: open power menu
-
-alt + S: toggle split screen
-
-mainmod(super) + A: focus left window
-
-mainmod(super) + D: focus right window
-
-mainmod(super) + W: focus up window
-
-mainmod(super) + S: focus down window
-
-alt + P: take screenshot
-
-mainmod(super) + L: lock screen
-
-mainmod(super) + K: close panel
-
-mainmod(super) + J: start panel
-
-alt + 1: switch to workspace 1
-
-alt + 2: switch to workspace 2
-
-alt + 3: switch to workspace 3
-
-alt + 4: switch to workspace 4
-
-alt + 5: switch to workspace 5
-
-alt + 6: switch to workspace 6
-
-alt + 7: switch to workspace 7
-
-alt + 8: switch to workspace 8
-
-alt + 9: switch to workspace 9
-
-alt + 0: switch to workspace 10
 
 
-mainmod(super) + 1: move to workspace 1
+| Action                                | Shortcut (Key)      |
+|---------------------------------------|---------------------|
+| Open themes                           | <kbd>Alt</kbd> + <kbd>C</kbd> |
+| Open terminal                         | <kbd>Alt</kbd> + <kbd>Return</kbd> |
+| Kill active window                    | <kbd>Alt</kbd> + <kbd>Q</kbd> |
+| Exit environment                      | <kbd>$mainMod</kbd> + <kbd>M</kbd> |
+| Toggle fullscreen mode                | <kbd>$mainMod</kbd> + <kbd>F</kbd> |
+| Open file manager                     | <kbd>$mainMod</kbd> + <kbd>E</kbd> |
+| Toggle floating window                | <kbd>Alt</kbd> + <kbd>F</kbd> |
+| Open menu                             | <kbd>Alt</kbd> + <kbd>X</kbd> |
+| Open power menu                       | <kbd>Alt</kbd> + <kbd>Z</kbd> |
+| Toggle split mode                     | <kbd>Alt</kbd> + <kbd>S</kbd> |
+| Move focus to the left                | <kbd>$mainMod</kbd> + <kbd>A</kbd> |
+| Move focus to the right               | <kbd>$mainMod</kbd> + <kbd>D</kbd> |
+| Move focus up                         | <kbd>$mainMod</kbd> + <kbd>W</kbd> |
+| Move focus down                       | <kbd>$mainMod</kbd> + <kbd>S</kbd> |
+| Take a screenshot                     | <kbd>Alt</kbd> + <kbd>P</kbd> |
+| Lock screen                           | <kbd>$mainMod</kbd> + <kbd>L</kbd> |
+| Kill panel                            | <kbd>$mainMod</kbd> + <kbd>K</kbd> |
+| Start panel                           | <kbd>$mainMod</kbd> + <kbd>J</kbd> |
+| Switch to workspace 1                 | <kbd>Alt</kbd> + <kbd>1</kbd> |
+| Switch to workspace 2                 | <kbd>Alt</kbd> + <kbd>2</kbd> |
+| Switch to workspace 3                 | <kbd>Alt</kbd> + <kbd>3</kbd> |
+| Switch to workspace 4                 | <kbd>Alt</kbd> + <kbd>4</kbd> |
+| Switch to workspace 5                 | <kbd>Alt</kbd> + <kbd>5</kbd> |
+| Switch to workspace 6                 | <kbd>Ctrl</kbd> + <kbd>1</kbd> |
+| Switch to workspace 7                 | <kbd>Ctrl</kbd> + <kbd>2</kbd> |
+| Switch to workspace 8                 | <kbd>Ctrl</kbd> + <kbd>3</kbd> |
+| Switch to workspace 9                 | <kbd>Ctrl</kbd> + <kbd>4</kbd> |
+| Switch to workspace 10                | <kbd>Ctrl</kbd> + <kbd>5</kbd> |
+| Move window to workspace 1            | <kbd>$mainMod</kbd> + <kbd>1</kbd> |
+| Move window to workspace 2            | <kbd>$mainMod</kbd> + <kbd>2</kbd> |
+| Move window to workspace 3            | <kbd>$mainMod</kbd> + <kbd>3</kbd> |
+| Move window to workspace 4            | <kbd>$mainMod</kbd> + <kbd>4</kbd> |
+| Move window to workspace 5            | <kbd>$mainMod</kbd> + <kbd>5</kbd> |
+| Move window to workspace 6            | <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>1</kbd> |
+| Move window to workspace 7            | <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>2</kbd> |
+| Move window to workspace 8            | <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>3</kbd> |
+| Move window to workspace 9            | <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>4</kbd> |
+| Move window to workspace 10           | <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>5</kbd> |
 
-mainmod(super) + 2: move to workspace 2
-
-mainmod(super) + 3: move to workspace 3
-
-mainmod(super) + 4: move to workspace 4
-
-mainmod(super) + 5: move to workspace 5
-
-mainmod(super) + 6: move to workspace 6
-
-mainmod(super) + 7: move to workspace 7
-
-mainmod(super) + 8: move to workspace 8
-
-mainmod(super) + 9: move to workspace 9
-
-mainmod(super) + 0: move to workspace 10
 
 </details>
 
----
 
 ![lavender](https://github.com/user-attachments/assets/6c763e8f-8de5-490f-a9c1-52b2dcdaf970)
 
