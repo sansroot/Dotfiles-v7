@@ -138,6 +138,19 @@ else
     sed -i "s/monitor = DP-2, 1920x1080@144, 1920x0, 1/monitor = DP-2, disabled/" ./themes/themes/sapphire/hypr/hyprland.conf
     sed -i "s/monitor = DP-2, 1920x1080@144, 1920x0, 1/monitor = DP-2, disabled/" ./themes/themes/tokyonight/hypr/hyprland.conf
     sed -i "s/monitor = DP-2, 1920x1080@144, 1920x0, 1/monitor = DP-2, disabled/" ./themes/themes/yellow/hypr/hyprland.conf
+    sed -i "s/monitor:DP-2/monitor:DP-1/" ./hypr/hyprland.conf
+    sed -i "s/monitor:DP-2/monitor:DP-1/" ./themes/themes/blue/hypr/hyprland.conf
+    sed -i "s/monitor:DP-2/monitor:DP-1/" ./themes/themes/dawn/hypr/hyprland.conf
+    sed -i "s/monitor:DP-2/monitor:DP-1/" ./themes/themes/green/hypr/hyprland.conf
+    sed -i "s/monitor:DP-2/monitor:DP-1/" ./themes/themes/lavender/hypr/hyprland.conf
+    sed -i "s/monitor:DP-2/monitor:DP-1/" ./themes/themes/mauve/hypr/hyprland.conf
+    sed -i "s/monitor:DP-2/monitor:DP-1/" ./themes/themes/moon/hypr/hyprland.conf
+    sed -i "s/monitor:DP-2/monitor:DP-1/" ./themes/themes/peach/hypr/hyprland.conf
+    sed -i "s/monitor:DP-2/monitor:DP-1/" ./themes/themes/pink/hypr/hyprland.conf
+    sed -i "s/monitor:DP-2/monitor:DP-1/" ./themes/themes/red/hypr/hyprland.conf
+    sed -i "s/monitor:DP-2/monitor:DP-1/" ./themes/themes/sapphire/hypr/hyprland.conf
+    sed -i "s/monitor:DP-2/monitor:DP-1/" ./themes/themes/tokyonight/hypr/hyprland.conf
+    sed -i "s/monitor:DP-2/monitor:DP-1/" ./themes/themes/yellow/hypr/hyprland.conf
 fi
 clear
 ifconfig
