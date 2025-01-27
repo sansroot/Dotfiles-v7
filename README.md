@@ -8,7 +8,7 @@
 
 **You will have to manually install the dependencies (sometimes package names changes. Right, ***Hyprshot***?)**
 
-## Waybar:
+#### Waybar:
 ```
 sudo pacman -S iniparser
 yay -S waybar-cava fftw
