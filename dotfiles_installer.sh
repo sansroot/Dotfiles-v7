@@ -20,7 +20,7 @@ if [ "$option" == "Y" ]; then
         sed -i "s/DP-1/$monitor/" ./themes/themes/pink/hypr/hyprland.conf
         sed -i "s/DP-1/$monitor/" ./themes/themes/red/hypr/hyprland.conf
         sed -i "s/DP-1/$monitor/" ./themes/themes/sapphire/hypr/hyprland.conf
-        sed -i "s/DP-1/$monitor/" ./themes/themes/tokyonight/hypr/hyprland.conf
+        sed -i "s/DP-1/$monitor/" ./themes/themes/tokyo-night/hypr/hyprland.conf
         sed -i "s/DP-1/$monitor/" ./themes/themes/yellow/hypr/hyprland.conf
         echo "type the refresh rate of your monitor, example [60, 140, 240]"
         read refresh
@@ -35,7 +35,7 @@ if [ "$option" == "Y" ]; then
         sed -i "s/@240/@$refresh/" ./themes/themes/pink/hypr/hyprland.conf
         sed -i "s/@240/@$refresh/" ./themes/themes/red/hypr/hyprland.conf
         sed -i "s/@240/@$refresh/" ./themes/themes/sapphire/hypr/hyprland.conf
-        sed -i "s/@240/@$refresh/" ./themes/themes/tokyonight/hypr/hyprland.conf
+        sed -i "s/@240/@$refresh/" ./themes/themes/tokyo-night/hypr/hyprland.conf
         sed -i "s/@240/@$refresh/" ./themes/themes/yellow/hypr/hyprland.conf
         echo "type the resolution of your monitor, example [1920x1080, 1280x720]"
         read resolution
@@ -50,7 +50,7 @@ if [ "$option" == "Y" ]; then
         sed -i "s/1920x1080@$refresh/$resolution@$refresh/" ./themes/themes/pink/hypr/hyprland.conf
         sed -i "s/1920x1080@$refresh/$resolution@$refresh/" ./themes/themes/red/hypr/hyprland.conf
         sed -i "s/1920x1080@$refresh/$resolution@$refresh/" ./themes/themes/sapphire/hypr/hyprland.conf
-        sed -i "s/1920x1080@$refresh/$resolution@$refresh/" ./themes/themes/tokyonight/hypr/hyprland.conf
+        sed -i "s/1920x1080@$refresh/$resolution@$refresh/" ./themes/themes/tokyo-night/hypr/hyprland.conf
         sed -i "s/1920x1080@$refresh/$resolution@$refresh/" ./themes/themes/yellow/hypr/hyprland.conf
     echo "Do you have a second monitor? [Y/N]"
     read hypr
@@ -71,7 +71,7 @@ if [ "$option" == "Y" ]; then
         sed -i "s/DP-2/$monitor/" ./themes/themes/pink/hypr/hyprland.conf
         sed -i "s/DP-2/$monitor/" ./themes/themes/red/hypr/hyprland.conf
         sed -i "s/DP-2/$monitor/" ./themes/themes/sapphire/hypr/hyprland.conf
-        sed -i "s/DP-2/$monitor/" ./themes/themes/tokyonight/hypr/hyprland.conf
+        sed -i "s/DP-2/$monitor/" ./themes/themes/tokyo-night/hypr/hyprland.conf
         sed -i "s/DP-2/$monitor/" ./themes/themes/yellow/hypr/hyprland.conf
         echo "type the refresh rate of your monitor, example [60, 140, 240]"
         read refresh
@@ -86,7 +86,7 @@ if [ "$option" == "Y" ]; then
         sed -i "s/@144/@$refresh/" ./themes/themes/pink/hypr/hyprland.conf
         sed -i "s/@144/@$refresh/" ./themes/themes/red/hypr/hyprland.conf
         sed -i "s/@144/@$refresh/" ./themes/themes/sapphire/hypr/hyprland.conf
-        sed -i "s/@144/@$refresh/" ./themes/themes/tokyonight/hypr/hyprland.conf
+        sed -i "s/@144/@$refresh/" ./themes/themes/tokyo-night/hypr/hyprland.conf
         sed -i "s/@144/@$refresh/" ./themes/themes/yellow/hypr/hyprland.conf
         echo "type the resolution of your monitor, example [1920x1080, 1280x720]"
         read resolution
@@ -101,7 +101,7 @@ if [ "$option" == "Y" ]; then
         sed -i "s/1920x1080@$refresh/$resolution@$refresh/" ./themes/themes/pink/hypr/hyprland.conf
         sed -i "s/1920x1080@$refresh/$resolution@$refresh/" ./themes/themes/red/hypr/hyprland.conf
         sed -i "s/1920x1080@$refresh/$resolution@$refresh/" ./themes/themes/sapphire/hypr/hyprland.conf
-        sed -i "s/1920x1080@$refresh/$resolution@$refresh/" ./themes/themes/tokyonight/hypr/hyprland.conf
+        sed -i "s/1920x1080@$refresh/$resolution@$refresh/" ./themes/themes/tokyo-night/hypr/hyprland.conf
         sed -i "s/1920x1080@$refresh/$resolution@$refresh/" ./themes/themes/yellow/hypr/hyprland.conf
         clear
         echo "is the second monitor on the left or on the right side on your main one? [L/R]"
@@ -123,7 +123,7 @@ if [ "$option" == "Y" ]; then
             sed -i "s/1920x0/${orientation}x0/" ./themes/themes/pink/hypr/hyprland.conf
             sed -i "s/1920x0/${orientation}x0/" ./themes/themes/red/hypr/hyprland.conf
             sed -i "s/1920x0/${orientation}x0/" ./themes/themes/sapphire/hypr/hyprland.conf
-            sed -i "s/1920x0/${orientation}x0/" ./themes/themes/tokyonight/hypr/hyprland.conf
+            sed -i "s/1920x0/${orientation}x0/" ./themes/themes/tokyo-night/hypr/hyprland.conf
             sed -i "s/1920x0/${orientation}x0/" ./themes/themes/yellow/hypr/hyprland.conf
         else
             clear
@@ -141,7 +141,7 @@ if [ "$option" == "Y" ]; then
             sed -i "s/1920x0/-${orientation}x0/" ./themes/themes/pink/hypr/hyprland.conf
             sed -i "s/1920x0/-${orientation}x0/" ./themes/themes/red/hypr/hyprland.conf
             sed -i "s/1920x0/-${orientation}x0/" ./themes/themes/sapphire/hypr/hyprland.conf
-            sed -i "s/1920x0/-${orientation}x0/" ./themes/themes/tokyonight/hypr/hyprland.conf
+            sed -i "s/1920x0/-${orientation}x0/" ./themes/themes/tokyo-night/hypr/hyprland.conf
             sed -i "s/1920x0/-${orientation}x0/" ./themes/themes/yellow/hypr/hyprland.conf
             fi
     else
@@ -156,7 +156,7 @@ if [ "$option" == "Y" ]; then
         sed -i "s/monitor = DP-2, 1920x1080@144, 1920x0, 1/monitor = DP-2, disabled/" ./themes/themes/pink/hypr/hyprland.conf
         sed -i "s/monitor = DP-2, 1920x1080@144, 1920x0, 1/monitor = DP-2, disabled/" ./themes/themes/red/hypr/hyprland.conf
         sed -i "s/monitor = DP-2, 1920x1080@144, 1920x0, 1/monitor = DP-2, disabled/" ./themes/themes/sapphire/hypr/hyprland.conf
-        sed -i "s/monitor = DP-2, 1920x1080@144, 1920x0, 1/monitor = DP-2, disabled/" ./themes/themes/tokyonight/hypr/hyprland.conf
+        sed -i "s/monitor = DP-2, 1920x1080@144, 1920x0, 1/monitor = DP-2, disabled/" ./themes/themes/tokyo-night/hypr/hyprland.conf
         sed -i "s/monitor = DP-2, 1920x1080@144, 1920x0, 1/monitor = DP-2, disabled/" ./themes/themes/yellow/hypr/hyprland.conf
         sed -i "s/monitor:DP-2/monitor:DP-1/" ./hypr/hyprland.conf
         sed -i "s/monitor:DP-2/monitor:DP-1/" ./themes/themes/blue/hypr/hyprland.conf
@@ -169,7 +169,7 @@ if [ "$option" == "Y" ]; then
         sed -i "s/monitor:DP-2/monitor:DP-1/" ./themes/themes/pink/hypr/hyprland.conf
         sed -i "s/monitor:DP-2/monitor:DP-1/" ./themes/themes/red/hypr/hyprland.conf
         sed -i "s/monitor:DP-2/monitor:DP-1/" ./themes/themes/sapphire/hypr/hyprland.conf
-        sed -i "s/monitor:DP-2/monitor:DP-1/" ./themes/themes/tokyonight/hypr/hyprland.conf
+        sed -i "s/monitor:DP-2/monitor:DP-1/" ./themes/themes/tokyo-night/hypr/hyprland.conf
         sed -i "s/monitor:DP-2/monitor:DP-1/" ./themes/themes/yellow/hypr/hyprland.conf
     fi
 else
@@ -191,7 +191,7 @@ sed -i "s/wlan0/$interface/" ./themes/themes/peach/waybar/config.jsonc
 sed -i "s/wlan0/$interface/" ./themes/themes/pink/waybar/config.jsonc
 sed -i "s/wlan0/$interface/" ./themes/themes/red/waybar/config.jsonc
 sed -i "s/wlan0/$interface/" ./themes/themes/sapphire/waybar/config.jsonc
-sed -i "s/wlan0/$interface/" ./themes/themes/tokyonight/waybar/config.jsonc
+sed -i "s/wlan0/$interface/" ./themes/themes/tokyo-night/waybar/config.jsonc
 sed -i "s/wlan0/$interface/" ./themes/themes/yellow/waybar/config.jsonc
 clear  
 cp -r ./fastfetch ./hypr ./kitty ./rofi ./waybar -t ~/.config
