@@ -12,6 +12,10 @@
 sudo pacman -S iniparser
 yay -S waybar-cava fftw
 ```
+#### Cava:
+```
+yay -S cava
+```
 #### Zsh: 
 ```
 sudo pacman -S zsh 
