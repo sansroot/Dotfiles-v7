@@ -10,7 +10,8 @@
 
 #### Waybar:
 ```
-sudo pacman -S waybar
+sudo pacman -S iniparser
+yay -S waybar-cava fftw
 ```
 #### Zsh: 
 ```
