@@ -27,6 +27,25 @@ window#waybar {
     color: #232136;
     background: #f6c177;
 }
+#cava{
+    margin-top: 10px;
+    margin-left: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 0px;
+    border-radius: 10px;
+    transition: none;
+    background: #232136; 
+    color: #f6c177;
+    border-bottom: 3px;
+    border-style: solid;
+    border-color: #f6c177;
+    transition: 0.3s; 
+}
+#cava:hover{
+    color: #232136;
+    background: #f6c177;
+}
 #battery{
     margin-top: 10px;
     margin-left: 8px;
