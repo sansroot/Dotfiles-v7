@@ -10,7 +10,7 @@
     "logo": {
     	"source": "~/.config/fastfetch/mauve.jpg",
     	"type": "kitty",
-    	"height": 18,
+    	"height": 16,
     	"padding": {
     		"top": 0
     	}
