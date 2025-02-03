@@ -8,7 +8,6 @@ if [ "$option" == "Y" ]; then
         hyprctl monitors all
         echo "type your main monitor, example [DP-1, HDMI-1]"
         read monitor
-        monitor="${monitor^^}"
         sed -i "s/DP-1/$monitor/" ./hypr/hyprland.conf
         sed -i "s/DP-1/$monitor/" ./themes/themes/blue/hypr/hyprland.conf
         sed -i "s/DP-1/$monitor/" ./themes/themes/dawn/hypr/hyprland.conf
@@ -59,7 +58,6 @@ if [ "$option" == "Y" ]; then
         hyprctl monitors all
         echo "type your monitor, example [DP-2, HDMI-2]"
         read monitor
-        monitor="${monitor^^}"
         sed -i "s/DP-2/$monitor/" ./hypr/hyprland.conf
         sed -i "s/DP-2/$monitor/" ./themes/themes/blue/hypr/hyprland.conf
         sed -i "s/DP-2/$monitor/" ./themes/themes/dawn/hypr/hyprland.conf
