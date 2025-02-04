@@ -207,6 +207,7 @@ rm -rf hypr-dots
 hyprctl setcursor hypr-dots 24
 sudo chmod -R 777 /usr/share/themes
 sudo chmod -R 777 /usr/share/icons
+sudo chmod -R 777 /usr/bin/papirus-folders
 gsettings set org.gnome.desktop.interface icon-theme 'Papirus-Dark' &> /dev/null
 gsettings set org.gnome.desktop.interface gtk-theme "hypr-dots-mauve" &> /dev/null
 papirus-folders -C cat-mocha-mauve &> /dev/null
