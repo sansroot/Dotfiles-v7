@@ -202,11 +202,6 @@ swww init &> /dev/null
 swww img ~/.config/hypr/wallpaper.jpg &> /dev/null
 killall waybar &> /dev/null
 waybar &> /dev/null &
-gsettings set org.gnome.desktop.interface icon-theme 'Papirus-Dark' &> /dev/null
-gsettings set org.gnome.desktop.interface gtk-theme "hypr-dots-mauve" &> /dev/null
-papirus-folders -C cat-mocha-mauve &> /dev/null
-
-
 cd ..
 rm -rf hypr-dots
 hyprctl setcursor hypr-dots 24
