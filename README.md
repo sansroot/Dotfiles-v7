@@ -6,7 +6,10 @@
 ## 1. Dependencies installation
 
 **You will have to manually install the dependencies (sometimes package names changes. Right, ***Hyprshot***?)**
-
+#### Papirus Icons
+```
+yay -S papirus-folders-catppuccin-git
+```
 #### Waybar:
 ```
 sudo pacman -S iniparser
@@ -94,7 +97,7 @@ sudo pacman -S neovim
 ## 4. To help you
 
 
-#### Nwg-look (Gtk theme and cursor apply): 
+#### Nwg-look: 
 ```
 sudo pacman -S nwg-look
 ```
