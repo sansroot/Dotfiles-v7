@@ -8,6 +8,7 @@ element-text, element-icon, mode-switcher {
     text-color: inherit;
     border-radius: 20px;
     font: @font;
+    highlight: none; 
 }
 
 window {
@@ -80,6 +81,7 @@ element {
 }
 
 element-icon {
+    enabled: false;
     size: 25px;
     font: @font;
 }
