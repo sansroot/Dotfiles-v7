@@ -212,7 +212,7 @@ gsettings set org.gnome.desktop.interface gtk-theme "hypr-dots-lavender" &> /dev
 gsettings set org.gnome.desktop.interface cursor-theme 'hypr-dots' &> /dev/null
 papirus-folders -C cat-mocha-lavender &> /dev/null
 clear
-echo "Now, let's load the Hyprland, Waybar, and Rofi theme into the theme-switcher variable for the first time."
+echo "Now, let's load the Hyprland, Waybar, and Rofi themes into the theme-switcher variable for the first time."
 sleep 4
 echo ""
 echo ""
