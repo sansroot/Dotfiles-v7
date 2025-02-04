@@ -69,7 +69,7 @@ dummy {
 prompt {
    background-color:            @foreground;
    color:                       @background;
-   padding:                     5px 137px 6px 125px;
+   padding:                     5px 119px 6px 125px;
 }
 
 
