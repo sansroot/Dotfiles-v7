@@ -178,19 +178,19 @@ clear
 ifconfig
 echo "Type your network interface name, example: (wlan0/eth0/enp3s0) "
 read interface
-sed -i "s/enp3s0/$interface/" ./waybar/config.jsonc
-sed -i "s/enp3s0/$interface/" ./themes/themes/blue/waybar/config.jsonc
-sed -i "s/enp3s0/$interface/" ./themes/themes/dawn/waybar/config.jsonc
-sed -i "s/enp3s0/$interface/" ./themes/themes/green/waybar/config.jsonc
-sed -i "s/enp3s0/$interface/" ./themes/themes/lavender/waybar/config.jsonc
-sed -i "s/enp3s0/$interface/" ./themes/themes/mauve/waybar/config.jsonc
-sed -i "s/enp3s0/$interface/" ./themes/themes/moon/waybar/config.jsonc
-sed -i "s/enp3s0/$interface/" ./themes/themes/peach/waybar/config.jsonc
-sed -i "s/enp3s0/$interface/" ./themes/themes/pink/waybar/config.jsonc
-sed -i "s/enp3s0/$interface/" ./themes/themes/red/waybar/config.jsonc
-sed -i "s/enp3s0/$interface/" ./themes/themes/sapphire/waybar/config.jsonc
-sed -i "s/enp3s0/$interface/" ./themes/themes/tokyo-night/waybar/config.jsonc
-sed -i "s/enp3s0/$interface/" ./themes/themes/yellow/waybar/config.jsonc
+sed -i "s/wlan0/$interface/" ./waybar/config.jsonc
+sed -i "s/wlan0/$interface/" ./themes/themes/blue/waybar/config.jsonc
+sed -i "s/wlan0/$interface/" ./themes/themes/dawn/waybar/config.jsonc
+sed -i "s/wlan0/$interface/" ./themes/themes/green/waybar/config.jsonc
+sed -i "s/wlan0/$interface/" ./themes/themes/lavender/waybar/config.jsonc
+sed -i "s/wlan0/$interface/" ./themes/themes/mauve/waybar/config.jsonc
+sed -i "s/wlan0/$interface/" ./themes/themes/moon/waybar/config.jsonc
+sed -i "s/wlan0/$interface/" ./themes/themes/peach/waybar/config.jsonc
+sed -i "s/wlan0/$interface/" ./themes/themes/pink/waybar/config.jsonc
+sed -i "s/wlan0/$interface/" ./themes/themes/red/waybar/config.jsonc
+sed -i "s/wlan0/$interface/" ./themes/themes/sapphire/waybar/config.jsonc
+sed -i "s/wlan0/$interface/" ./themes/themes/tokyo-night/waybar/config.jsonc
+sed -i "s/wlan0/$interface/" ./themes/themes/yellow/waybar/config.jsonc
 clear  
 cp -r ./fastfetch ./hypr ./kitty ./rofi ./waybar -t ~/.config
 cp -r ./themes -t ~/Documents/
