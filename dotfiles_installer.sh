@@ -211,4 +211,87 @@ gsettings set org.gnome.desktop.interface icon-theme 'Papirus-Dark' &> /dev/null
 gsettings set org.gnome.desktop.interface gtk-theme "hypr-dots-red" &> /dev/null
 gsettings set org.gnome.desktop.interface cursor-theme 'hypr-dots' &> /dev/null
 papirus-folders -C cat-mocha-red &> /dev/null
+clear
+echo "Now, let's load the Hyprland, Waybar, and Rofi theme into the theme-switcher variable for the first time."
+sleep 4
+echo ""
+echo ""
+echo -n "Select your theme in: "
+sleep 1
+echo -n "5 "
+sleep 0.5 
+echo -n "4 "
+sleep 0.5
+echo -n "3 "
+sleep 0.5
+echo -n "2 "
+sleep 0.5
+echo "1 "
+sleep 0.5 
+bash ~/Documents/themes/theme-switcher.sh &> /dev/null &
+echo ""
+echo ""
+echo "*****************************"
+echo "Press any key to continue"
+echo "*****************************"
+read 
+clear
+echo "Now, let's load the GTK theme and icons into the theme-switcher variable for the first time."
+sleep 3
+echo ""
+echo "Select your Hyprland theme again, and then select your GTK and icons theme"
+sleep 2
+echo ""
+echo ""
+echo -n "Select your theme in: "
+sleep 1
+echo -n "5 "
+sleep 0.5 
+echo -n "4 "
+sleep 0.5
+echo -n "3 "
+sleep 0.5
+echo -n "2 "
+sleep 0.5
+echo  "1 "
+sleep 0.5 
+bash ~/Documents/themes/theme-switcher.sh &> /dev/null &
+echo ""
+echo ""
+echo "*****************************"
+echo "Press any key to continue"
+echo "*****************************"
+read
+clear
+sleep 0.2
+echo -e "\033[31m     ******       ******     "
+sleep 0.2
+echo -e "\033[31m   **      **   **      **   "
+sleep 0.2
+echo -e "\033[31m **         ** **         ** "
+sleep 0.2
+echo -e "\033[31m**           ***           **"
+sleep 0.2
+echo -e "\033[31m**            *            **"
+sleep 0.2
+echo -e "\033[31m **                       ** "
+sleep 0.2
+echo -e "\033[31m   **                   **   "
+sleep 0.2
+echo -e "\033[31m     **               **     "
+sleep 0.2
+echo -e "\033[31m       **           **       "
+sleep 0.2
+echo -e "\033[31m         **       **         "
+sleep 0.2
+echo -e "\033[31m           **   **           "
+sleep 0.2
+echo -e "\033[31m             **             "
+echo ""
+echo ""
+echo "" 
+echo ""
+echo "*****************************"
+echo "Thanks for using my rice! :)"
+echo "*****************************"
 
