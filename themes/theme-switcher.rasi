@@ -67,9 +67,9 @@ dummy {
 }
 
 prompt {
-   background-color:            @foreground;
-   color:                       @background;
-   padding:                     5px 119px 6px 125px;
+   background-color:            @background-alt;
+   color:                       @foreground;
+   padding:                     9px 119px 10px 125px;
 }
 
 
