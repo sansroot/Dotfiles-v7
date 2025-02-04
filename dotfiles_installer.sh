@@ -211,4 +211,4 @@ gsettings set org.gnome.desktop.interface icon-theme 'Papirus-Dark' &> /dev/null
 gsettings set org.gnome.desktop.interface gtk-theme "hypr-dots-lavender" &> /dev/null
 gsettings set org.gnome.desktop.interface cursor-theme 'hypr-dots' &> /dev/null
 papirus-folders -C cat-mocha-lavender &> /dev/null
-killall rofi
+
