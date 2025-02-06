@@ -1,38 +1,38 @@
-Open themes                      Alt + C
-Open terminal                    Alt + Return
-Kill active window               Alt + Q
-Exit environment                 Super + M
-Toggle fullscreen mode           Super + F
-Open file manager                Super + E
-Toggle floating window           Alt + F
-Open menu                        Alt + X
-Open power menu                  Alt + Z
-Toggle split mode                Alt + S
-Move focus to the left           Super + A
-Move focus to the right          Super + D
-Move focus up                    Super + W
-Move focus down                  Super + S
-Take a screenshot                Alt + P
-Lock screen                      Super + L
-Kill panel                       Super + K
-Start panel                      Super + J
-Switch to workspace 1            Alt + 1
-Switch to workspace 2            Alt + 2
-Switch to workspace 3            Alt + 3
-Switch to workspace 4            Alt + 4
-Switch to workspace 5            Alt + 5
-Switch to workspace 6            Ctrl + 1
-Switch to workspace 7            Ctrl + 2
-Switch to workspace 8            Ctrl + 3
-Switch to workspace 9            Ctrl + 4
-Switch to workspace 10           Ctrl + 5
-Move window to workspace 1       Super + 1
-Move window to workspace 2       Super + 2
-Move window to workspace 3       Super + 3
-Move window to workspace 4       Super + 4
-Move window to workspace 5       Super + 5
-Move window to workspace 6       Ctrl + Shift + 1
-Move window to workspace 7       Ctrl + Shift + 2
-Move window to workspace 8       Ctrl + Shift + 3
-Move window to workspace 9       Ctrl + Shift + 4
-Move window to workspace 10      Ctrl + Shift + 5
+ Open themes                             Alt + C
+ Open terminal                      Alt + Return
+ Kill active window                      Alt + Q
+ Exit environment                      Super + M
+ Toggle fullscreen mode                Super + F
+ Open file manager                     Super + E
+ Toggle floating window                  Alt + F
+ Open menu                               Alt + X
+ Open power menu                         Alt + Z
+ Toggle split mode                       Alt + S
+ Move focus to the left                Super + A
+ Move focus to the right               Super + D
+ Move focus up                         Super + W
+ Move focus down                       Super + S
+ Take a screenshot                       Alt + P
+ Lock screen                           Super + L
+ Kill panel                            Super + K
+ Start panel                           Super + J
+ Switch to workspace 1                   Alt + 1
+ Switch to workspace 2                   Alt + 2
+ Switch to workspace 3                   Alt + 3
+ Switch to workspace 4                   Alt + 4
+ Switch to workspace 5                   Alt + 5
+ Switch to workspace 6                  Ctrl + 1
+ Switch to workspace 7                  Ctrl + 2
+ Switch to workspace 8                  Ctrl + 3
+ Switch to workspace 9                  Ctrl + 4
+ Switch to workspace 10                 Ctrl + 5
+ Move window to workspace 1            Super + 1
+ Move window to workspace 2            Super + 2
+ Move window to workspace 3            Super + 3
+ Move window to workspace 4            Super + 4
+ Move window to workspace 5            Super + 5
+ Move window to workspace 6     Ctrl + Shift + 1
+ Move window to workspace 7     Ctrl + Shift + 2
+ Move window to workspace 8     Ctrl + Shift + 3
+ Move window to workspace 9     Ctrl + Shift + 4
+ Move window to workspace 10    Ctrl + Shift + 5
