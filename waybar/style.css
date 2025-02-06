@@ -23,6 +23,25 @@ window#waybar {
     border-color: #74c7ec;
     transition: 0.3s;
 }
+#custom-keybinds {
+    margin-top: 10px;
+    margin-left: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 0px;
+    border-radius: 10px;
+    transition: none;
+    color: #74c7ec;
+    background: #1E1D2F;
+    transition: 0.3s;
+    border-bottom: 3px;
+    border-style: solid;
+    border-color: #74c7ec;
+}
+#custom-keybinds:hover { 
+    background: #74c7ec;
+    color: #1E1D2F;
+}
 #network:hover { 
     color: #1E1D2F;
     background: #74c7ec;
