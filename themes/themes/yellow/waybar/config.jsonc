@@ -2,7 +2,7 @@
 	"layer": "top",
 	"modules-left": ["custom/launcher","cpu","memory","disk","hyprland/workspaces"],
 	"modules-center": ["clock"],
-	"modules-right": ["tray", "cava", "hyprland/language","network","backlight","pulseaudio","battery","custom/power"],
+	"modules-right": ["custom/keybinds","tray", "cava", "hyprland/language","network","backlight","pulseaudio","battery","custom/power"],
 	
 	"pulseaudio": {
 		"tooltip": false,
@@ -33,7 +33,11 @@
             "format-icons" : ["▁", "▂", "▃", "▄", "▅", "▆", "▇", "█" ],
              },
 
-
+    "custom/keybinds": {
+        "format": "{icon} KB",
+        "format-icons": ["󰘳"],
+        "on-click": "bash ~/Documents/themes/keybinds/keybinds.sh"
+    },
 
     "backlight": {
         "device": "intel_backlight",
