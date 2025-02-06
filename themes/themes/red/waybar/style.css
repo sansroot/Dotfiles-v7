@@ -27,6 +27,25 @@ window#waybar {
     color: #1E1D2F;
     background: #f38ba8;
 }
+#custom-keybinds {
+    margin-top: 10px;
+    margin-left: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 0px;
+    border-radius: 10px;
+    transition: none;
+    color: #f38ba8;
+    background: #1E1D2F;
+    transition: 0.3s;
+    border-bottom: 3px;
+    border-style: solid;
+    border-color: #f38ba8;
+}
+#custom-keybinds:hover { 
+    background: #f38ba8;
+    color: #1E1D2F;
+}
 #cava{
     margin-top: 10px;
     margin-left: 8px;
