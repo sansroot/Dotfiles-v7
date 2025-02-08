@@ -170,6 +170,7 @@ if [ "$option" == "Y" ]; then
         sed -i "s/monitor:DP-2/monitor:DP-1/" ./themes/themes/tokyo-night/hypr/hyprland.conf &>/dev/null
         sed -i "s/monitor:DP-2/monitor:DP-1/" ./themes/themes/yellow/hypr/hyprland.conf &>/dev/null
     fi
+    clear
     echo "would you like to set the gaps manually? [Y/N]"
     read gaps
     gaps="${gaps^^}"
@@ -186,8 +187,7 @@ if [ "$option" == "Y" ]; then
             sed -i "s/gaps_out = 40/gaps_out = $gaps_out/" ./themes/themes/$item/hypr/hyprland.conf
         done
     fi
-
-
+    clear
     echo "would you like to set a custom opacity? [Y/N]"
     read opacity
     opacity="${opacity^^}"
@@ -204,13 +204,9 @@ if [ "$option" == "Y" ]; then
             sed -i "s/inactive_opacity = 0.3/inactive_opacity = $inactive_opacity/" ./themes/themes/$item1/hypr/hyprland.conf
         done
     fi
-
-
-
 else
     echo "When you log on hyprland, run this script again to set you monitor and refresh rate" 
     sleep 4   
-
 fi
 clear
 ifconfig
