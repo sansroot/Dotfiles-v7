@@ -170,6 +170,40 @@ if [ "$option" == "Y" ]; then
         sed -i "s/monitor:DP-2/monitor:DP-1/" ./themes/themes/tokyo-night/hypr/hyprland.conf &>/dev/null
         sed -i "s/monitor:DP-2/monitor:DP-1/" ./themes/themes/yellow/hypr/hyprland.conf &>/dev/null
     fi
+    clear
+    echo "would you like to set the gaps manually? [Y/N]"
+    read gaps
+    gaps="${gaps^^}"
+    if [ "$gaps" = "Y" ]; then
+        echo "type the gaps_in (default 10): "
+        read gaps_in
+        echo "type the gaps_out (default 40): "
+        read gaps_out
+        sed -i "s/gaps_in = 10/gaps_in = $gaps_in/" ./hypr/hyprland.conf
+        sed -i "s/gaps_out = 40/gaps_out = $gaps_out/" ./hypr/hyprland.conf
+        lista=("mauve" "blue" "green" "lavender" "peach" "pink" "red" "sapphire" "yellow")
+        for item in "${lista[@]}"; do
+            sed -i "s/gaps_in = 10/gaps_in = $gaps_in/" ./themes/themes/$item/hypr/hyprland.conf
+            sed -i "s/gaps_out = 40/gaps_out = $gaps_out/" ./themes/themes/$item/hypr/hyprland.conf
+        done
+    fi
+    clear
+    echo "would you like to set a custom opacity? [Y/N]"
+    read opacity
+    opacity="${opacity^^}"
+    if [ "$opacity" = "Y" ]; then
+        echo "type the active_opacity (default 0.9): "
+        read active_opacity
+        echo "type the inactive_opacity (default 0.3): "
+        read inactive_opacity
+        sed -i "s/active_opacity = 0.9/active_opacity = $active_opacity/" ./hypr/hyprland.conf
+        sed -i "s/inactive_opacity = 0.3/inactive_opacity = $inactive_opacity/" ./hypr/hyprland.conf
+        lista=("mauve" "blue" "green" "lavender" "peach" "pink" "red" "sapphire" "yellow")
+        for item1 in "${lista[@]}"; do
+            sed -i "s/active_opacity = 0.9/active_opacity = $active_opacity/" ./themes/themes/$item1/hypr/hyprland.conf
+            sed -i "s/inactive_opacity = 0.3/inactive_opacity = $inactive_opacity/" ./themes/themes/$item1/hypr/hyprland.conf
+        done
+    fi
 else
     echo "When you log on hyprland, run this script again to set you monitor and refresh rate" 
     sleep 4   
@@ -208,9 +242,9 @@ sudo chmod -R 777 /usr/share/themes
 sudo chmod -R 777 /usr/share/icons
 sudo chmod -R 777 /usr/bin/papirus-folders
 gsettings set org.gnome.desktop.interface icon-theme 'Papirus-Dark' &> /dev/null
-gsettings set org.gnome.desktop.interface gtk-theme "hypr-dots-sapphire" &> /dev/null
+gsettings set org.gnome.desktop.interface gtk-theme "hypr-dots-mauve" &> /dev/null
 gsettings set org.gnome.desktop.interface cursor-theme 'hypr-dots' &> /dev/null
-papirus-folders -C cat-mocha-sapphire &> /dev/null
+papirus-folders -C cat-mocha-mauve &> /dev/null
 clear
 echo "Now, let's load the Hyprland, Waybar, and Rofi themes into the theme-switcher variable for the first time."
 sleep 4
@@ -294,4 +328,3 @@ echo ""
 echo "*****************************"
 echo "Thanks for using my rice! :)"
 echo "*****************************"
-
