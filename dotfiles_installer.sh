@@ -1,5 +1,5 @@
 #!/bin/bash
-
+lista=("mauve" "blue" "green" "lavender" "peach" "pink" "red" "sapphire" "yellow")
 clear
 echo "Are you logged on Hyprland right now? [Y/N]"
 read hypr
@@ -204,6 +204,56 @@ if [ "$option" == "Y" ]; then
             sed -i "s/inactive_opacity = 0.3/inactive_opacity = $inactive_opacity/" ./themes/themes/$item1/hypr/hyprland.conf
         done
     fi
+
+
+
+    echo "would you like to enable blur? [Y/N]"
+    read option
+    option="${option^^}"
+    if [ "$option" = "Y" ]; then 
+        echo "would you like to set a custom blur? [Y/N]"
+        read blur
+        blur="${blur^^}"
+        if [ "$blur" = "Y" ]; then
+            echo "type the blur size (default 1): "
+            read blur_size
+            echo "type the blur passes (default 5): "
+            read blur_passes
+            sed -i "s/size = 1/size = $blur_size/" ./hypr/hyprland.conf
+            sed -i "s/passes = 5/passes = $blur_passes/" ./hypr/hyprland.conf
+            for item3 in "${lista[@]}"; do
+                sed -i "s/size = 1/size = $blur_size/" ./themes/themes/$item3/hypr/hyprland.conf
+                sed -i "s/passes = 5/passes = $blur_passes/" ./themes/themes/$item3/hypr/hyprland.conf
+            done
+        fi
+    else
+        sed -i "s/true, blur/false, blur" ./hypr/hyprland.conf
+        for item2 in "${lista[@]}"; do
+            sed -i "s/true, blur/false, blur" ./themes/themes/$item2/hypr/hyprland.conf
+        done
+
+    echo "would you like to enable animations? [Y/N]"
+    read animation
+    animation="${animation^^}"
+    if [ "$animation" = "N" ]; then
+        sed -i "s/true, animations/false, animations" ./hypr/hyprland.conf
+        for item4 in "${lista[@]}"; do
+            sed -i "s/true, animations/false, animations" ./themes/themes/$item4/hypr/hyprland.conf
+        done
+    fi
+    echo "would you like to enable border glow? [Y/N]"
+    read glow
+    glow="${glow^^}"
+    if [ "$glow" = "N" ]; then
+        sed -i "s/true, glow/false, glow" ./hypr/hyprland.conf
+        for item5 in "${lista[@]}"; do
+            sed -i "s/true, glow/false, glow" ./themes/themes/$item5/hypr/hyprland.conf
+        done
+    fi
+
+
+
+
 else
     echo "When you log on hyprland, run this script again to set you monitor and refresh rate" 
     sleep 4   
