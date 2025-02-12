@@ -217,7 +217,7 @@ if [ "$option" == "Y" ]; then
             sed -i "s/inactive_opacity = 0.3/inactive_opacity = $inactive_opacity/" ./themes/themes/$item1/hypr/hyprland.conf
         done
     fi
-
+    clear
     echo "would you like to enable blur? [Y/N]"
     read option
     option="${option^^}"
@@ -245,7 +245,7 @@ if [ "$option" == "Y" ]; then
             sed -i "s/true, blur/false, blur/" ./themes/themes/$item2/hypr/hyprland.conf
         done
     fi
-
+    clear
     echo "would you like to enable animations? [Y/N]"
     read animation
     animation="${animation^^}"
@@ -256,7 +256,7 @@ if [ "$option" == "Y" ]; then
             sed -i "s/true, animations/false, animations/" ./themes/themes/$item4/hypr/hyprland.conf
         done
     fi
-
+    clear
     echo "would you like to enable border glow? [Y/N]"
     read glow
     glow="${glow^^}"
